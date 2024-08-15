@@ -1,0 +1,120 @@
+2024-07-17 15:26:14 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+2024-07-17 15:29:24 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 15:38:31 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-17 15:41:37 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-17 15:41:42 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 15:41:57 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 15:43:27 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-17 15:44:06 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-17 15:44:09 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 15:45:34 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 15:50:32 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-17 16:03:31 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-17 16:03:55 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 16:05:36 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-17 16:09:07 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-17 16:11:19 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-17 16:13:53 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 16:13:53 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 18:57:27 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-17 19:11:00 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 19:11:00 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 19:11:13 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-17 19:24:41 [ INFO ] [ ACPT ] Disconnect
+2024-07-17 19:24:41 [ INFO ] [ ACPT ] Disconnect
+2024-07-18 14:56:53 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-18 14:57:31 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-18 16:10:05 [ DEBG ] [ RECV ] 
+		Server can: 
+	[1] File search
+
+2024-07-18 16:13:25 [ INFO ] [ ACPT ] Disconnect
+2024-07-18 16:13:25 [ INFO ] [ ACPT ] Disconnect
+2024-07-18 16:13:40 [ DEBG ] [ RECV ] 
+|		Server can: 
+|	[1] File search
+|		- search
+|	Corect request:
+|	<num> <action> <arg>
+
+2024-07-18 16:14:02 [ DEBG ] [ RECV ] 
+|		Server can: 
+|	[1] File search
+|		- search
+|	Corect request:
+|	<num> <action> <arg>
+
+2024-07-18 16:15:23 [ DEBG ] [ RECV ] 
+|		Server can: 
+|	[1] File search
+|		- search
+|
+|	Corect request:
+|	<num> <action> <arg>
+
+2024-07-19 02:09:32 [ INFO ] [ CLNT ] Client starting...
+2024-07-19 02:09:32 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-19 02:09:32 [ INFO ] [ CONT ] Connect succesfully
+2024-07-19 02:13:53 [ INFO ] [ CLNT ] Client starting...
+2024-07-19 02:13:53 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-19 02:13:53 [ WARN ] [ CONT ] Connect succesfully
+2024-07-19 02:14:01 [ INFO ] [ CLNT ] Client starting...
+2024-07-19 02:14:01 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-19 02:14:01 [ WARN ] [ CONT ] Connect succesfully
+2024-07-19 02:14:05 [ WARN ] [ CONT ] Disconnect
+2024-07-19 02:14:05 [ WARN ] [ CONT ] Disconnect
+2024-07-19 02:15:46 [ INFO ] [ CLNT ] Client starting...
+2024-07-19 02:15:46 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-19 02:15:46 [ WARN ] [ CONT ] Connect succesfully
+2024-07-19 02:18:37 [ INFO ] [ CLNT ] Client starting...
+2024-07-19 02:18:37 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-19 02:18:37 [ WARN ] [ CONT ] Connect succesfully
+2024-07-19 10:27:50 [ INFO ] [ CLNT ] Client starting...
+2024-07-19 10:27:50 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-19 10:27:50 [ WARN ] [ CONT ] Connect succesfully
+2024-07-19 10:28:12 [ INFO ] [ CLNT ] Client starting...
+2024-07-19 10:28:12 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-19 10:28:12 [ WARN ] [ CONT ] Connect succesfully
+2024-07-19 15:19:20 [ WARN ] [ CONT ] Disconnect
+2024-07-19 15:19:20 [ INFO ] [ CLNT ] Client finished...

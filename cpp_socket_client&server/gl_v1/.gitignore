@@ -1,0 +1,11 @@
+# Folders
+obj
+.vscode
+
+# File
+test.cpp
+
+# Main objects
+runClient
+runServer
+test

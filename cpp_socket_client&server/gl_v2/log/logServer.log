@@ -1,0 +1,165 @@
+2024-06-27 19:17:33 [ INFO ] [ SERV ] Starting...
+2024-06-27 19:17:33 [ INFO ] [ SOCK ] Successfully
+2024-06-27 19:17:33 [ INFO ] [ BIND ] Successfully
+2024-06-27 19:17:33 [ INFO ] [ LISN ] Successfully
+2024-06-27 19:18:15 [ INFO ] [ ACET ] New client
+2024-06-28 13:53:50 [ INFO ] [ SERV ] Starting...
+2024-06-28 13:53:50 [ INFO ] [ SOCK ] Successfully
+2024-06-28 13:53:50 [ INFO ] [ BIND ] Successfully
+2024-06-28 13:53:50 [ INFO ] [ LISN ] Successfully
+2024-06-28 13:53:58 [ INFO ] [ ACET ] New client
+2024-06-28 13:57:19 [ INFO ] [ SERV ] Starting...
+2024-06-28 13:57:19 [ INFO ] [ SOCK ] Successfully
+2024-06-28 13:57:19 [ INFO ] [ BIND ] Successfully
+2024-06-28 13:57:19 [ INFO ] [ LISN ] Successfully
+2024-06-28 13:57:28 [ INFO ] [ ACET ] New client
+2024-06-28 13:57:38 [ INFO ] [ ACET ] Client left
+2024-06-28 13:58:29 [ INFO ] [ SERV ] Starting...
+2024-06-28 13:58:29 [ INFO ] [ SOCK ] Successfully
+2024-06-28 13:58:29 [ INFO ] [ BIND ] Successfully
+2024-06-28 13:58:29 [ INFO ] [ LISN ] Successfully
+2024-06-28 13:58:32 [ INFO ] [ ACET ] New client
+2024-06-28 14:07:47 [ INFO ] [ ACET ] Client left
+2024-06-30 13:27:57 [ INFO ] [ SERV ] Starting...
+2024-06-30 13:27:57 [ INFO ] [ SOCK ] Successfully
+2024-06-30 13:27:57 [ INFO ] [ BIND ] Successfully
+2024-06-30 13:27:57 [ INFO ] [ LISN ] Successfully
+2024-06-30 13:28:05 [ INFO ] [ ACET ] New client
+2024-06-30 13:28:05 [ DEBG ] [ RECV ] Successfully
+2024-06-30 13:28:19 [ INFO ] [ RECV ] Client left
+2024-06-30 13:40:03 [ INFO ] [ SERV ] Starting...
+2024-06-30 13:40:03 [ INFO ] [ SOCK ] Successfully
+2024-06-30 13:40:03 [ INFO ] [ BIND ] Successfully
+2024-06-30 13:40:03 [ INFO ] [ LISN ] Successfully
+2024-06-30 13:40:05 [ INFO ] [ ACET ] New client
+2024-06-30 13:40:05 [ DEBG ] [ RECV ] Successfully
+2024-06-30 13:40:05 [ DEBG ] [ SEND ] Successfully
+2024-06-30 13:40:05 [ DEBG ] [ RECV ] Successfully
+2024-06-30 13:40:05 [ DEBG ] [ RECV ] Successfully
+2024-06-30 13:40:05 [ DEBG ] [ SEND ] Successfully
+2024-06-30 13:40:05 [ DEBG ] [ RECV ] Successfully
+2024-06-30 13:40:05 [ DEBG ] [ SEND ] Successfully
+2024-06-30 13:40:05 [ DEBG ] [ RECV ] Successfully
+2024-06-30 13:40:05 [ DEBG ] [ SEND ] Successfully
+2024-06-30 13:40:05 [ INFO ] [ RECV ] Client left
+2024-06-30 14:31:19 [ INFO ] [ SERV ] Starting...
+2024-06-30 14:31:19 [ INFO ] [ SOCK ] Successfully
+2024-06-30 14:31:19 [ INFO ] [ BIND ] Successfully
+2024-06-30 14:31:19 [ INFO ] [ LISN ] Successfully
+2024-06-30 14:31:21 [ INFO ] [ ACET ] New client
+2024-06-30 14:31:21 [ DEBG ] [ RECV ] processes
+2024-06-30 14:31:21 [ DEBG ] [ SEND ] processes <action>
+2024-06-30 14:31:21 [ DEBG ] [ RECV ] processes show
+2024-06-30 14:31:21 [ DEBG ] [ RECV ] processes
+2024-06-30 14:31:21 [ DEBG ] [ SEND ] processes <action>
+2024-06-30 14:31:21 [ DEBG ] [ RECV ] processes kill
+2024-06-30 14:31:21 [ DEBG ] [ SEND ] processes kill <PID>
+2024-06-30 14:31:21 [ DEBG ] [ RECV ] processes kill 256
+2024-06-30 14:31:21 [ DEBG ] [ SEND ] processes kill 256
+2024-06-30 14:31:21 [ DEBG ] [ RECV ] Найвище дерево світу
+2024-06-30 14:31:22 [ DEBG ] [ SEND ] I'm sorry, the server can only return information about currently running processes. Would you like me to do that for you?
+2024-06-30 14:31:22 [ INFO ] [ RECV ] Client left
+2024-06-30 14:31:23 [ DEBG ] [ SEND ] 1) List all running processes. 
+2) Allow completion of processes. 
+3) Forwarding request for processing.
+2024-06-30 14:31:23 [ INFO ] [ RECV ] Client left
+2024-06-30 14:38:37 [ INFO ] [ SERV ] Starting...
+2024-06-30 14:38:37 [ INFO ] [ SOCK ] Successfully
+2024-06-30 14:38:37 [ INFO ] [ BIND ] Successfully
+2024-06-30 14:38:37 [ INFO ] [ LISN ] Successfully
+2024-06-30 14:38:39 [ INFO ] [ ACET ] New client
+2024-06-30 14:38:39 [ DEBG ] [ RECV ] processes
+2024-06-30 14:38:39 [ DEBG ] [ SEND ] processes <action>
+2024-06-30 14:38:39 [ DEBG ] [ RECV ] processes show
+2024-06-30 14:38:39 [ DEBG ] [ RECV ] processes
+2024-06-30 14:38:39 [ DEBG ] [ SEND ] processes <action>
+2024-06-30 14:38:39 [ DEBG ] [ RECV ] processes kill
+2024-06-30 14:38:39 [ DEBG ] [ SEND ] processes kill <PID>
+2024-06-30 14:38:39 [ DEBG ] [ RECV ] processes kill 256
+2024-06-30 14:38:39 [ DEBG ] [ SEND ] processes kill 256
+2024-06-30 14:38:39 [ DEBG ] [ RECV ] Найвище дерево світу
+2024-06-30 14:38:40 [ DEBG ] [ SEND ] Sorry, I am unable to process that request. Please provide a valid command.
+2024-06-30 14:38:40 [ INFO ] [ RECV ] Client left
+2024-06-30 14:38:41 [ DEBG ] [ SEND ] 1) Provide list of currently running processes.
+2) Allow user to terminate selected processes.
+3) Please provide more information on the request for further assistance.
+4) Unable to fulfill request at this time, please try again later.
+2024-06-30 14:38:41 [ INFO ] [ RECV ] Client left
+2024-06-30 14:39:51 [ INFO ] [ SERV ] Starting...
+2024-06-30 14:39:51 [ INFO ] [ SOCK ] Successfully
+2024-06-30 14:39:51 [ INFO ] [ BIND ] Successfully
+2024-06-30 14:39:51 [ INFO ] [ LISN ] Successfully
+2024-06-30 14:39:53 [ INFO ] [ ACET ] New client
+2024-06-30 14:39:53 [ DEBG ] [ RECV ] processes
+2024-06-30 14:39:53 [ DEBG ] [ SEND ] processes <action>
+2024-06-30 14:39:53 [ DEBG ] [ RECV ] processes show
+2024-06-30 14:39:53 [ DEBG ] [ RECV ] processes
+2024-06-30 14:39:53 [ DEBG ] [ SEND ] processes <action>
+2024-06-30 14:39:53 [ DEBG ] [ RECV ] processes kill
+2024-06-30 14:39:53 [ DEBG ] [ SEND ] processes kill <PID>
+2024-06-30 14:39:53 [ DEBG ] [ RECV ] processes kill 256
+2024-06-30 14:39:53 [ DEBG ] [ SEND ] processes kill 256
+2024-06-30 14:39:53 [ DEBG ] [ RECV ] Найвище дерево світу
+2024-06-30 14:39:54 [ DEBG ] [ SEND ] 1) Request: Please return all currently running processes.
+   Answer: Here is the list of currently running processes: [list of processes]
+2) Request: Please complete the processes.
+   Answer: Please specify the processes you would like to complete.
+3) Request: Найвище дерево світу
+   Answer: The tallest tree in the world is the Hyperion tree, a coast redwood located in California, USA.
+2024-06-30 14:40:29 [ INFO ] [ RECV ] Client left
+2024-06-30 14:40:30 [ DEBG ] [ SEND ] 1) Request received. Server will return all currently running processes.
+2) Request received. Server will provide opportunity to complete processes.
+2024-06-30 14:40:30 [ INFO ] [ RECV ] Client left
+2024-06-30 14:49:04 [ INFO ] [ SERV ] Starting...
+2024-06-30 14:49:04 [ INFO ] [ SOCK ] Successfully
+2024-06-30 14:49:04 [ INFO ] [ BIND ] Successfully
+2024-06-30 14:49:04 [ INFO ] [ LISN ] Successfully
+2024-06-30 14:49:07 [ INFO ] [ ACET ] New client
+2024-06-30 14:49:07 [ DEBG ] [ RECV ] processes
+2024-06-30 14:49:07 [ DEBG ] [ SEND ] processes <action>
+2024-06-30 14:49:07 [ DEBG ] [ RECV ] processes show
+2024-06-30 14:49:07 [ DEBG ] [ RECV ] processes
+2024-06-30 14:49:07 [ DEBG ] [ SEND ] processes <action>
+2024-06-30 14:49:07 [ DEBG ] [ RECV ] processes kill
+2024-06-30 14:49:07 [ DEBG ] [ SEND ] processes kill <PID>
+2024-06-30 14:49:07 [ DEBG ] [ RECV ] processes kill 256
+2024-06-30 14:49:07 [ DEBG ] [ SEND ] processes kill 256
+2024-06-30 14:49:07 [ DEBG ] [ RECV ] Найвище дерево світу
+2024-06-30 14:49:08 [ DEBG ] [ SEND ] Sorry, I am unable to process that request. 
+Please provide a valid command for the server to execute.
+2024-06-30 14:49:40 [ INFO ] [ SERV ] Starting...
+2024-06-30 14:49:40 [ INFO ] [ SOCK ] Successfully
+2024-06-30 14:49:40 [ ERRO ] [ BIND ] Failed
+2024-06-30 14:49:40 [ INFO ] [ SOCK ] Close
+2024-06-30 14:50:31 [ INFO ] [ SERV ] Starting...
+2024-06-30 14:50:31 [ INFO ] [ SOCK ] Successfully
+2024-06-30 14:50:31 [ ERRO ] [ BIND ] Failed
+2024-06-30 14:50:31 [ INFO ] [ SOCK ] Close
+2024-06-30 14:50:58 [ INFO ] [ SERV ] Starting...
+2024-06-30 14:50:58 [ INFO ] [ SOCK ] Successfully
+2024-06-30 14:50:58 [ INFO ] [ BIND ] Successfully
+2024-06-30 14:50:58 [ INFO ] [ LISN ] Successfully
+2024-06-30 14:51:02 [ INFO ] [ ACET ] New client
+2024-06-30 14:51:02 [ DEBG ] [ RECV ] processes
+2024-06-30 14:51:02 [ DEBG ] [ SEND ] processes <action>
+2024-06-30 14:51:02 [ DEBG ] [ RECV ] processes show
+2024-06-30 14:51:02 [ DEBG ] [ RECV ] processes
+2024-06-30 14:51:02 [ DEBG ] [ SEND ] processes <action>
+2024-06-30 14:51:02 [ DEBG ] [ RECV ] processes kill
+2024-06-30 14:51:02 [ DEBG ] [ SEND ] processes kill <PID>
+2024-06-30 14:51:02 [ DEBG ] [ RECV ] processes kill 256
+2024-06-30 14:51:02 [ DEBG ] [ SEND ] processes kill 256
+2024-06-30 14:51:02 [ DEBG ] [ RECV ] Найвище дерево світу
+2024-06-30 14:51:03 [ DEBG ] [ SEND ] Sorry, I cannot process your request. Please try again with a valid command.
+2024-06-30 14:51:03 [ INFO ] [ RECV ] Client left
+2024-06-30 14:51:04 [ DEBG ] [ SEND ] Client: Requesting list of currently running processes
+Server: Here is the list of running processes
+Client: Requesting to complete a specific process
+Server: Process completion request received, completing process
+Client: Requesting invalid action
+Server: Invalid request, please try again
+2024-06-30 14:51:04 [ INFO ] [ RECV ] Client left
+2024-07-05 19:53:27 [ INFO ] [ SERV ] Starting...
+2024-07-05 19:53:27 [ INFO ] [ SOCK ] Successfully
+2024-07-05 19:53:27 [ INFO ] [ BIND ] Successfully
+2024-07-05 19:53:27 [ INFO ] [ LISN ] Successfully

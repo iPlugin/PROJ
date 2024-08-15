@@ -1,0 +1,218 @@
+2024-07-16 21:36:46 [ INFO ] [ SEVR ] Server starting...
+2024-07-16 21:36:46 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-16 21:36:46 [ INFO ] [ BIND ] Bind succesfully
+2024-07-16 21:36:46 [ INFO ] [ LISN ] Listen succesfully
+2024-07-16 21:37:37 [ INFO ] [ ACPT ] Listen succesfully
+2024-07-16 21:37:37 [ DEBG ] [ RECV ] Hello
+2024-07-16 21:37:37 [ INFO ] [ RECV ] Success
+2024-07-16 21:37:37 [ INFO ] [ SEVR ] Server finished...
+2024-07-16 21:41:40 [ INFO ] [ SEVR ] Server starting...
+2024-07-16 21:41:40 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-16 21:41:40 [ INFO ] [ BIND ] Bind succesfully
+2024-07-16 21:41:40 [ INFO ] [ LISN ] Listen succesfully
+2024-07-16 21:41:44 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-16 21:41:44 [ DEBG ] [ RECV ] Hello
+2024-07-16 21:41:44 [ INFO ] [ RECV ] Success
+2024-07-17 12:14:41 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 12:14:41 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 12:14:41 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 12:14:41 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 12:14:43 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 12:14:43 [ DEBG ] [ RECV ] Hello
+2024-07-17 12:14:43 [ INFO ] [ RECV ] Success
+2024-07-17 12:15:51 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 12:15:51 [ DEBG ] [ RECV ] Hello
+2024-07-17 12:15:51 [ INFO ] [ RECV ] Success
+2024-07-17 12:18:19 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 12:18:19 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 12:18:19 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 12:18:19 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 12:18:31 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 12:18:31 [ DEBG ] [ RECV ] Hello
+2024-07-17 12:18:31 [ INFO ] [ RECV ] Accept disconnect
+2024-07-17 12:18:36 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 12:18:36 [ DEBG ] [ RECV ] Hello
+2024-07-17 12:18:36 [ INFO ] [ RECV ] Accept disconnect
+2024-07-17 12:19:26 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 12:19:26 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 12:19:26 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 12:19:26 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 12:19:29 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 12:19:29 [ DEBG ] [ RECV ] Hello
+2024-07-17 12:19:29 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 12:19:32 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 12:19:32 [ DEBG ] [ RECV ] Hello
+2024-07-17 12:19:32 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 12:33:44 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 12:33:44 [ DEBG ] [ RECV ] Hello
+2024-07-17 12:33:44 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 14:03:41 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 14:03:41 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 14:03:41 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 14:03:41 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 14:09:59 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 14:09:59 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 14:09:59 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 14:09:59 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 14:10:02 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 14:10:02 [ DEBG ] [ RECV ] Hello
+2024-07-17 14:10:02 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 14:51:52 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 14:51:52 [ DEBG ] [ RECV ] Hello
+2024-07-17 14:51:52 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 14:52:02 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 14:52:02 [ DEBG ] [ RECV ] Hello
+2024-07-17 14:52:02 [ INFO ] [ ACPT ] Accept disconnect
+2024-07-17 15:25:36 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 15:25:36 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 15:25:36 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 15:25:36 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 15:26:14 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 15:38:28 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 15:38:28 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 15:38:28 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 15:38:28 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 15:38:31 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 15:41:27 [ INFO ] [ SEVR ] Accept disconnect
+2024-07-17 15:41:37 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 15:43:23 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 15:43:23 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 15:43:23 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 15:43:23 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 15:43:27 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 15:44:00 [ INFO ] [ SEVR ] Accept disconnect
+2024-07-17 15:44:06 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 15:50:27 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 15:50:27 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 15:50:27 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 15:50:27 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 15:50:32 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 15:50:39 [ INFO ] [ SEVR ] Accept disconnect
+2024-07-17 16:03:25 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 16:03:25 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 16:03:25 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 16:03:25 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 16:03:31 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 16:04:07 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 16:04:07 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 16:04:07 [ ERRO ] [ BIND ] Bind failed
+2024-07-17 16:05:32 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 16:05:32 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 16:05:32 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 16:05:32 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 16:05:36 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 16:08:46 [ INFO ] [ SEVR ] Accept disconnect
+2024-07-17 16:09:07 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 16:09:12 [ INFO ] [ SEVR ] Accept disconnect
+2024-07-17 16:11:12 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 16:11:12 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 16:11:12 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 16:11:12 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 16:11:19 [ INFO ] [ ACPT ] Accept succesfully
+2024-07-17 18:57:16 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 18:57:16 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 18:57:16 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 18:57:16 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 18:57:27 [ INFO ] [ ACPT ] New client
+2024-07-17 19:11:07 [ INFO ] [ SEVR ] Server starting...
+2024-07-17 19:11:07 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-17 19:11:07 [ INFO ] [ BIND ] Bind succesfully
+2024-07-17 19:11:07 [ INFO ] [ LISN ] Listen succesfully
+2024-07-17 19:11:13 [ INFO ] [ ACPT ] New client
+2024-07-17 19:11:13 [ DEBG ] [ RECV ] 
+	Server can: 
+[1] File search
+
+2024-07-18 14:56:44 [ INFO ] [ SEVR ] Server starting...
+2024-07-18 14:56:44 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-18 14:56:44 [ INFO ] [ BIND ] Bind succesfully
+2024-07-18 14:56:44 [ INFO ] [ LISN ] Listen succesfully
+2024-07-18 14:56:53 [ INFO ] [ ACPT ] New client
+2024-07-18 14:56:53 [ DEBG ] [ SEND ] 
+	Server can: 
+[1] File search
+
+2024-07-18 14:57:24 [ INFO ] [ ACPT ] Disconnect
+2024-07-18 14:57:31 [ INFO ] [ ACPT ] New client
+2024-07-18 14:57:31 [ DEBG ] [ SEND ] 
+	Server can: 
+[1] File search
+
+2024-07-18 16:09:46 [ INFO ] [ ACPT ] Disconnect
+2024-07-18 16:09:57 [ INFO ] [ SEVR ] Server starting...
+2024-07-18 16:09:57 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-18 16:09:57 [ INFO ] [ BIND ] Bind succesfully
+2024-07-18 16:09:57 [ INFO ] [ LISN ] Listen succesfully
+2024-07-18 16:10:05 [ INFO ] [ ACPT ] New client
+2024-07-18 16:10:05 [ DEBG ] [ SEND ] 
+		Server can: 
+	[1] File search
+
+2024-07-18 16:13:32 [ INFO ] [ SEVR ] Server starting...
+2024-07-18 16:13:32 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-18 16:13:32 [ INFO ] [ BIND ] Bind succesfully
+2024-07-18 16:13:32 [ INFO ] [ LISN ] Listen succesfully
+2024-07-18 16:13:40 [ INFO ] [ ACPT ] New client
+2024-07-18 16:13:40 [ DEBG ] [ SEND ] 
+|		Server can: 
+|	[1] File search
+|		- search
+|	Corect request:
+|	<num> <action> <arg>
+
+2024-07-18 16:14:01 [ INFO ] [ ACPT ] Disconnect
+2024-07-18 16:14:02 [ INFO ] [ ACPT ] New client
+2024-07-18 16:14:02 [ DEBG ] [ SEND ] 
+|		Server can: 
+|	[1] File search
+|		- search
+|	Corect request:
+|	<num> <action> <arg>
+
+2024-07-18 16:15:07 [ INFO ] [ ACPT ] Disconnect
+2024-07-18 16:15:19 [ INFO ] [ SEVR ] Server starting...
+2024-07-18 16:15:19 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-18 16:15:19 [ INFO ] [ BIND ] Bind succesfully
+2024-07-18 16:15:19 [ INFO ] [ LISN ] Listen succesfully
+2024-07-18 16:15:23 [ INFO ] [ ACPT ] New client
+2024-07-18 16:15:23 [ DEBG ] [ SEND ] 
+|		Server can: 
+|	[1] File search
+|		- search
+|
+|	Corect request:
+|	<num> <action> <arg>
+
+2024-07-18 16:40:56 [ INFO ] [ ACPT ] Disconnect
+2024-07-19 01:41:07 [ INFO ] [ SEVR ] Server starting...
+2024-07-19 01:41:07 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-19 01:41:07 [ INFO ] [ BIND ] Bind succesfully
+2024-07-19 01:41:07 [ INFO ] [ LISN ] Listen succesfully
+2024-07-19 02:09:21 [ INFO ] [ SEVR ] Server starting...
+2024-07-19 02:09:21 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-19 02:09:21 [ INFO ] [ BIND ] Bind succesfully
+2024-07-19 02:09:21 [ INFO ] [ LISN ] Listen succesfully
+2024-07-19 02:09:32 [ WARN ] [ ACPT ] New client
+2024-07-19 02:09:42 [ INFO ] [ ACPT ] Disconnect
+2024-07-19 02:13:37 [ INFO ] [ SEVR ] Server starting...
+2024-07-19 02:13:37 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-19 02:13:37 [ INFO ] [ BIND ] Bind succesfully
+2024-07-19 02:13:37 [ INFO ] [ LISN ] Listen succesfully
+2024-07-19 02:13:53 [ WARN ] [ ACPT ] New client
+2024-07-19 02:13:58 [ WARN ] [ ACPT ] Disconnect
+2024-07-19 02:14:01 [ WARN ] [ ACPT ] New client
+2024-07-19 02:15:39 [ INFO ] [ SEVR ] Server starting...
+2024-07-19 02:15:39 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-19 02:15:39 [ INFO ] [ BIND ] Bind succesfully
+2024-07-19 02:15:39 [ INFO ] [ LISN ] Listen succesfully
+2024-07-19 02:15:46 [ WARN ] [ ACPT ] New client
+2024-07-19 02:17:39 [ WARN ] [ ACPT ] Disconnect
+2024-07-19 02:18:37 [ WARN ] [ ACPT ] New client
+2024-07-19 02:18:44 [ WARN ] [ ACPT ] Disconnect
+2024-07-19 10:27:41 [ INFO ] [ SEVR ] Server starting...
+2024-07-19 10:27:41 [ INFO ] [ SOCK ] Socket succesfully
+2024-07-19 10:27:41 [ INFO ] [ BIND ] Bind succesfully
+2024-07-19 10:27:41 [ INFO ] [ LISN ] Listen succesfully
+2024-07-19 10:27:50 [ WARN ] [ ACPT ] New client
+2024-07-19 10:28:09 [ WARN ] [ ACPT ] Disconnect
+2024-07-19 10:28:12 [ WARN ] [ ACPT ] New client
