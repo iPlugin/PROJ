@@ -6,6 +6,14 @@
 # - Datetime setting, hostname, network configurations
 # - (Optional) Hypervisor name, date of last login, public IP
 
+# if [ $UID != 0 ]; then
+# 	echo "Enter with root permission"
+
+if [ $UID != 0 ]; then
+	echo "| Enter with root permission"
+	exit 1
+fi
+
 echo "Welcome to SystemDetailer 1.0.0 ($(cat /etc/lsb-release | tail -n 1 | cut -c 22-40))
 
     * Author:	iPlugin
