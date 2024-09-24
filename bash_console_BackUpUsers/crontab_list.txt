@@ -1,0 +1,3 @@
+
+* * * * * cd /home/iplugin/Codes/scripts && ./http_get_info.sh
+0 0 * * * cd /usr/local/bin && ./backup_users.sh
