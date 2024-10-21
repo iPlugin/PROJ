@@ -1,0 +1,18 @@
+{% extends 'quotes/base.html' %}
+
+{% load static %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'quotes/author.css' %}">
+{% endblock %}
+
+{% block content %}
+<section class="u-clearfix u-section-1" id="sec-ed6c" style="margin-bottom: 20px;">
+  <div class="u-clearfix u-sheet u-sheet-1">
+    <img class="u-image u-image-round u-radius-10 u-image-1" src="{{ author.picture }}" alt="quote.author.id" data-image-width="500" data-image-height="667">
+    <h2 class="u-align-left u-custom-font u-font-roboto-condensed u-text u-text-1">{{ author.fullname }}</h2>
+    <div class="u-border-3 u-border-palette-1-base u-line u-line-horizontal u-line-1"></div>
+    <h5 class="u-align-left u-text u-text-2" style="margin: 50px -40px 0 0px; float: right;">{{ author.description }}</h5>
+    <h4 class="u-align-left u-custom-font u-text u-text-font u-text-3" style="padding-left: 40px; padding-top: 350px; padding-right: 40px;">{{ author.born_date }}, {{ author.born_location }}</h4>
+  </div>
+</section>
+{% endblock%}

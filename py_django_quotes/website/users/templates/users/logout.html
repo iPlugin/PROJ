@@ -1,0 +1,15 @@
+{% extends 'quotes/base.html' %}
+
+{% load static %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'users/logout.css' %}">
+{% endblock %}
+
+{% block content %}
+<section class="u-clearfix u-section-1" id="sec-b3a8">
+  <div class="u-clearfix u-sheet u-sheet-1" style="margin-top: 170px; height: 100vh;">
+    <h1 class="u-text u-text-default u-text-1" style="text-align: center;">See you later</h1>
+    <a href="{% url 'quotes:home' %}" class="u-border-2 u-border-black u-btn u-btn-round u-button-style u-hover-black u-none u-radius-10 u-text-hover-white u-btn-1">Home</a>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends 'quotes/base.html' %}
+
+{% load static %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'quotes/upload.css' %}">
+{% endblock %}
+
+{% block content %}
+<section class="u-clearfix u-section-1" id="sec-a612">
+  <div class="u-clearfix u-sheet u-sheet-1">
+    <h2 class="u-align-center u-custom-font u-font-roboto-condensed u-text u-text-default u-text-1">Upload Quote</h2>
+    <div class="u-border-3 u-border-palette-1-base u-line u-line-horizontal u-line-1"></div>
+    <div class="u-align-center u-form u-form-1">
+
+      <!-- Form method='POST' -->
+      <form action="{% url 'quotes:form_quote' %}" class="u-clearfix u-form-spacing-10 u-inner-form" method='POST'> <!-- u-form-vertical -->
+        {% csrf_token %}
+        <div class="u-form-group u-form-name">
+          <label for="name-c87e" class="u-label">Author name</label>
+          {{ form.author }}
+        </div>
+
+        <div class="u-form-group u-form-textarea u-form-group-4" style="margin-top: 5px;">
+          <label for="textarea-4c63" class="u-label">Quote</label>
+          {{ form.quote }}
+        </div>
+
+        <div class="u-form-group u-form-textarea u-form-group-4" style="margin-top: 5px;">
+          <label for="textarea-4c63" class="u-label">Tags</label>
+          {{ form.tags }}
+        </div>
+
+        <div class="u-align-right u-form-group">
+          <a href="{% url 'quotes:home' %}" style="margin-top: 20px; float: right; margin-left: 20px;" class="u-active-black u-border-2 u-border-black u-btn u-button-style u-custom-font u-font-roboto-condensed u-hover-palette-5-dark-2 u-none u-radius-10 u-text-black u-text-hover-white u-btn-1">HOME</a>
+        </div>
+
+        <div class="u-align-right u-form-group u-form-submit">
+          <a href="#" style="margin-top: 20px;" class="u-active-black u-border-2 u-border-black u-btn u-btn-round u-btn-submit u-button-style u-custom-font u-font-roboto-condensed u-hover-palette-5-dark-2 u-none u-radius-10 u-text-black u-text-hover-white u-btn-1">UPLOAD</a>
+          <input type="submit" value="submit" class="u-form-control-hidden">
+        </div>
+      </form>
+
+    </div>
+  </div>
+</section>
+{% endblock%}
