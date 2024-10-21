@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cstring>
 
-#include "numbooker.cpp"
-#include "libraries/inih/INIReader.h"
+#include "src/numbooker.cpp"
+#include "INIReader.h"
 
 const char* getUserName(char* envp[]) {
     const char* userVar = "USER=";

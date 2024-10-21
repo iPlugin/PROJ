@@ -2,22 +2,25 @@
 
 TARGET = project
 
-# Folders
-BUILD_DIR = build
-SRC_DIR = src
-# INCLUDE_DIR = include
-
 # Compiler and flags
 CXX = g++
-CXXFLAGS = -std=c++17 -Wall
+CXXFLAGS = -std=c++17 -Wall -I$(LIB_DIR)
+
+# Folders
+BUILD_DIR = build
+
 
 all: $(BUILD_DIR) $(TARGET)
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
 
-$(TARGET):
-	$(CXX) $(CXXFLAGS) main.cpp -o project
+$(TARGET): src/main.cpp
+	$(CXX) $(CXXFLAGS)
+	src/main.cpp
+	
+	-o $(TARGET)
+
 
 
 restart: clean all

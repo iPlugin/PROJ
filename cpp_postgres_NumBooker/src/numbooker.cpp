@@ -1,34 +1,4 @@
-#include <iostream>
-#include <string>
-
-struct DatabaseConfig {
-    std::string host;
-    int port;
-    std::string username;
-    std::string password;
-};
-
-class NumBooker {
-private:
-    std::string userName;
-    DatabaseConfig db;
-
-public:
-    NumBooker(const char* name, DatabaseConfig dbConfig);
-    ~NumBooker();
-    bool run();
-    void welcome();
-    char option();
-    void branching(const char choice);
-
-    void optionShow();
-    void optionAdd();
-    void optionDel();
-    void optionEdit();
-    void optionSearch();
-    
-    void bye();
-};
+#include "numbooker.h"
 
 NumBooker::NumBooker(const char* name, DatabaseConfig dbConfig)
     : userName(name ? name : ""), db(dbConfig) {
