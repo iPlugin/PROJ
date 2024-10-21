@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstring>
 
-#include "src/numbooker.cpp"
+#include "src/numbooker.h"
 #include "INIReader.h"
 
 const char* getUserName(char* envp[]) {

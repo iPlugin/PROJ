@@ -19,6 +19,7 @@ private:
 public:
     NumBooker(const char* name, DatabaseConfig dbConfig);
     ~NumBooker();
+    
     bool run();
     void welcome();
     char option();

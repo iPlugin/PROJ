@@ -1,29 +1,38 @@
-# ============= Makefile ============= #
+# Визначення компілятора та параметрів компіляції
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -I./libraries/inih
 
+# Визначення об'єктів
+OBJ = build/main.o build/numbooker.o build/INIReader.o build/ini.o
+
+# Визначення цільового виконуваного файлу
 TARGET = project
 
-# Compiler and flags
-CXX = g++
-CXXFLAGS = -std=c++17 -Wall -I$(LIB_DIR)
+# Правило за замовчуванням
+all: build $(TARGET)
 
-# Folders
-BUILD_DIR = build
+# Правило для створення каталогу build
+build:
+	mkdir -p build
 
+# Правило для створення виконуваного файлу
+$(TARGET): $(OBJ)
+	$(CXX) $(OBJ) -o $(TARGET)
 
-all: $(BUILD_DIR) $(TARGET)
+# Правила для створення об'єктних файлів
+build/main.o: main.cpp
+	$(CXX) $(CXXFLAGS) -c main.cpp -o build/main.o
 
-$(BUILD_DIR):
-	mkdir -p $(BUILD_DIR)
+build/numbooker.o: src/numbooker.cpp src/numbooker.h
+	$(CXX) $(CXXFLAGS) -c src/numbooker.cpp -o build/numbooker.o
 
-$(TARGET): src/main.cpp
-	$(CXX) $(CXXFLAGS)
-	src/main.cpp
-	
-	-o $(TARGET)
+build/INIReader.o: libraries/inih/INIReader.cpp libraries/inih/INIReader.h
+	$(CXX) $(CXXFLAGS) -c libraries/inih/INIReader.cpp -o build/INIReader.o
 
-
+build/ini.o: libraries/inih/ini.c libraries/inih/ini.h
+	$(CXX) $(CXXFLAGS) -c libraries/inih/ini.c -o build/ini.o
 
 restart: clean all
 
 clean:
-	rm -rf $(BUILD_DIR) $(TARGET)
+	rm -rf build $(TARGET)
