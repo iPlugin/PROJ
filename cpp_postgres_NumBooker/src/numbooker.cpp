@@ -1,7 +1,16 @@
 #include "numbooker.h"
 
+void NumBooker::skip() {
+    char skip;
+    std::cout << "\nPress the button 'q' and Enter: "; std::cin >> skip;
+}
+
+void NumBooker::clearConsole() {
+    std::system("clear");
+}
+
 NumBooker::NumBooker(const char* name, DatabaseConfig dbConfig)
-    : userName(name ? name : ""), db(dbConfig) {
+    : userName(name ? name : ""), database(dbConfig) {
 
 }
 
@@ -23,6 +32,8 @@ bool NumBooker::run() {
 
 
 void NumBooker::welcome() {
+    clearConsole();
+
     std::cout << R"(
     Starting the NumBooker application...
 
@@ -75,19 +86,100 @@ void NumBooker::branching(const char choice) {
 }
 
 void NumBooker::optionShow() {
-    std::cout << "optionShow" << std::endl;
+    clearConsole();
+
+    auto people = database.getAllPeople();
+    if (people.empty()) {
+        std::cout << "The contact list is empty" << std::endl;
+    }
+    else {
+        for (const auto& person : people) {
+            std::cout << "ID: " << std::get<0>(person) <<
+            ", Name: " << std::get<1>(person) <<
+            ", Surname: " << std::get<2>(person) <<
+            ", Age: " << std::get<3>(person) <<
+            ", Phone: " << std::get<4>(person) << std::endl; 
+        }   
+    }
+    // skip();
 }
 void NumBooker::optionAdd() {
-    std::cout << "optionAdd" << std::endl;
+    clearConsole();
+
+    std::string name, surname, phone_number;
+    int age;
+    
+    std::cout << "Enter name: ";
+    std::cin >> name;
+    std::cout << "Enter surname: ";
+    std::cin >> surname;
+    std::cout << "Enter age: ";
+    std::cin >> age;
+    std::cout << "Enter phone number: ";
+    std::cin >> phone_number;
+    
+    database.addPerson(name, surname, age, phone_number);
+    std::cout << "Contact added successfully." << std::endl;
 }
 void NumBooker::optionDel() {
-    std::cout << "optionDel" << std::endl;
+    clearConsole();
+
+    int id;
+    std::cout << "Enter the ID of the contact to delete: ";
+    std::cin >> id;
+    
+    database.deletePerson(id);
+    std::cout << "Contact deleted successfully." << std::endl;
 }
 void NumBooker::optionEdit() {
-    std::cout << "optionEdit" << std::endl;
+    clearConsole();
+
+    int id, age;
+    std::string name, surname, phone_number;
+    
+    std::cout << "Enter the ID of the contact to edit: ";
+    std::cin >> id;
+    std::cout << "Enter new name: ";
+    std::cin >> name;
+    std::cout << "Enter new surname: ";
+    std::cin >> surname;
+    std::cout << "Enter new age: ";
+    std::cin >> age;
+    std::cout << "Enter new phone number: ";
+    std::cin >> phone_number;
+    
+    database.updatePerson(id, name, surname, age, phone_number);
+    std::cout << "Contact updated successfully." << std::endl;
 }
 void NumBooker::optionSearch() {
-    std::cout << "optionSearch" << std::endl;
+    clearConsole();
+
+    std::string name, surname, phone_number;
+    int age = -1;
+    
+    std::cout << "Enter name to search (leave empty if not applicable): ";
+    std::cin.ignore(); // Очищуємо буфер перед getline
+    std::getline(std::cin, name);
+    std::cout << "Enter surname to search (leave empty if not applicable): ";
+    std::getline(std::cin, surname);
+    std::cout << "Enter phone number to search (leave empty if not applicable): ";
+    std::getline(std::cin, phone_number);
+    std::cout << "Enter age to search (enter -1 if not applicable): ";
+    std::cin >> age;
+
+    auto results = database.searchPeople(name, surname, age, phone_number);
+    
+    if (results.empty()) {
+        std::cout << "No contacts found." << std::endl;
+    } else {
+        for (const auto& person : results) {
+            std::cout << "ID: " << std::get<0>(person)
+                      << ", Name: " << std::get<1>(person)
+                      << ", Surname: " << std::get<2>(person)
+                      << ", Age: " << std::get<3>(person)
+                      << ", Phone: " << std::get<4>(person) << std::endl;
+        }
+    }
 }
 
 void NumBooker::bye() {

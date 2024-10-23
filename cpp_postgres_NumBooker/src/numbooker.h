@@ -4,17 +4,15 @@
 #include <string>
 #include <iostream>
 
-struct DatabaseConfig {
-    std::string host;
-    int port;
-    std::string username;
-    std::string password;
-};
+#include "postgresdb.h"
 
 class NumBooker {
 private:
     std::string userName;
-    DatabaseConfig db;
+    Database database;
+
+    void skip();
+    void clearConsole();
 
 public:
     NumBooker(const char* name, DatabaseConfig dbConfig);

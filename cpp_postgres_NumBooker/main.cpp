@@ -18,14 +18,14 @@ DatabaseConfig getDataINI(const std::string& filename) {
     INIReader reader(filename);
 
     DatabaseConfig data;
+    data.dbname = reader.GetString("DataBase", "dbname", "unknown");
     data.host = reader.GetString("DataBase", "host", "unknown");
-    data.port = reader.GetInteger("DataBase", "port", 0000);
+    data.port = reader.GetString("DataBase", "port", "unknown");
     data.username = reader.GetString("DataBase", "username", "unknown");
     data.password = reader.GetString("DataBase", "password", "unknown");
 
     return data;
 }
-
 
 int main(int argc, char* argv[], char* envp[]) {
 
