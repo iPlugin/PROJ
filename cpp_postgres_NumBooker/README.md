@@ -56,7 +56,7 @@ CREATE DATABASE numbooker;
 ```
 2) Run the Project Using Docker:
 ``` Bash script
-$ sudo docker run --name numbooker -e POSTGRES_PASSWORD=25051958 -d -p 5432:5432 postgres
+$ sudo docker run --name numbooker -e POSTGRES_PASSWORD=**** -d -p 5432:5432 postgres
 ```
 3) Compile and Run the Project:
 ``` Bash script
