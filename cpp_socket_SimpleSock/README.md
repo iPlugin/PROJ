@@ -31,14 +31,13 @@ make
 ### Running the Server
 Open a terminal and start the server:
 ``` Bash
-./runServer 1234
+./runServer 8000
 ```
 
 ### Running the Client
 Open another terminal and run the client, passing the server's IP address and port:
-
 ``` Bash
-./runClient 127.0.0.1 1234
+./runClient 127.0.0.1 8000
 ```
 
 ## Project Structure
