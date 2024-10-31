@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/BlackJack/">
+    <file alias="Main.qml">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/Main.qml</file>
+  </qresource>
+</RCC>
+
