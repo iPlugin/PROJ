@@ -1,6 +1,8 @@
 <RCC>
   <qresource prefix="/qt/qml/BlackJack/">
     <file alias="Main.qml">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/Main.qml</file>
+    <file alias="resources/images/promo.jpg">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/promo.jpg</file>
+    <file alias="resources/images/1_table.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/1_table.png</file>
   </qresource>
 </RCC>
 
