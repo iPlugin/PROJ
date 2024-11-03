@@ -17,73 +17,144 @@ qt_add_qml_module(appBlackJack
     VERSION 1.0
     QML_FILES Main.qml
     RESOURCES
-    #     resources/cards/1_1.png
-    #     resources/cards/1_2.png
-    #     resources/cards/1_3.png
-    #     resources/cards/1_4.png
+        resources/cards/1_1_1.png
+        resources/cards/1_1_2.png
+        resources/cards/1_1_3.png
+        resources/cards/1_1_4.png
 
-    #     resources/cards/2_1.png
-    #     resources/cards/2_2.png
-    #     resources/cards/2_3.png
-    #     resources/cards/2_4.png
+        resources/cards/1_2_1.png
+        resources/cards/1_2_2.png
+        resources/cards/1_2_3.png
+        resources/cards/1_2_4.png
 
-    #     resources/cards/3_1.png
-    #     resources/cards/3_2.png
-    #     resources/cards/3_3.png
-    #     resources/cards/3_4.png
+        resources/cards/1_3_1.png
+        resources/cards/1_3_2.png
+        resources/cards/1_3_3.png
+        resources/cards/1_3_4.png
 
-    #     resources/cards/4_1.png
-    #     resources/cards/4_2.png
-    #     resources/cards/4_3.png
-    #     resources/cards/4_4.png
+        resources/cards/1_4_1.png
+        resources/cards/1_4_2.png
+        resources/cards/1_4_3.png
+        resources/cards/1_4_4.png
 
-    #     resources/cards/5_1.png
-    #     resources/cards/5_2.png
-    #     resources/cards/5_3.png
-    #     resources/cards/5_4.png
+        resources/cards/1_5_1.png
+        resources/cards/1_5_2.png
+        resources/cards/1_5_3.png
+        resources/cards/1_5_4.png
 
-    #     resources/cards/6_1.png
-    #     resources/cards/6_2.png
-    #     resources/cards/6_3.png
-    #     resources/cards/6_4.png
+        resources/cards/1_6_1.png
+        resources/cards/1_6_2.png
+        resources/cards/1_6_3.png
+        resources/cards/1_6_4.png
 
-    #     resources/cards/7_1.png
-    #     resources/cards/7_2.png
-    #     resources/cards/7_3.png
-    #     resources/cards/7_4.png
+        resources/cards/1_7_1.png
+        resources/cards/1_7_2.png
+        resources/cards/1_7_3.png
+        resources/cards/1_7_4.png
 
-    #     resources/cards/8_1.png
-    #     resources/cards/8_2.png
-    #     resources/cards/8_3.png
-    #     resources/cards/8_4.png
+        resources/cards/1_8_1.png
+        resources/cards/1_8_2.png
+        resources/cards/1_8_3.png
+        resources/cards/1_8_4.png
 
-    #     resources/cards/9_1.png
-    #     resources/cards/9_2.png
-    #     resources/cards/9_3.png
-    #     resources/cards/9_4.png
+        resources/cards/1_9_1.png
+        resources/cards/1_9_2.png
+        resources/cards/1_9_3.png
+        resources/cards/1_9_4.png
 
-    #     resources/cards/10_1.png
-    #     resources/cards/10_2.png
-    #     resources/cards/10_3.png
-    #     resources/cards/10_4.png
+        resources/cards/1_10_1.png
+        resources/cards/1_10_2.png
+        resources/cards/1_10_3.png
+        resources/cards/1_10_4.png
 
-    #     resources/cards/11_1.png
-    #     resources/cards/11_2.png
-    #     resources/cards/11_3.png
-    #     resources/cards/11_4.png
+        resources/cards/1_11_1.png
+        resources/cards/1_11_2.png
+        resources/cards/1_11_3.png
+        resources/cards/1_11_4.png
 
-    #     resources/cards/12_1.png
-    #     resources/cards/12_2.png
-    #     resources/cards/12_3.png
-    #     resources/cards/12_4.png
+        resources/cards/1_12_1.png
+        resources/cards/1_12_2.png
+        resources/cards/1_12_3.png
+        resources/cards/1_12_4.png
 
-    #     resources/cards/13_1.png
-    #     resources/cards/13_2.png
-    #     resources/cards/13_3.png
-    #     resources/cards/13_4.png
+        resources/cards/1_13_1.png
+        resources/cards/1_13_2.png
+        resources/cards/1_13_3.png
+        resources/cards/1_13_4.png
+
+        resources/cards/2_1_1.png
+        resources/cards/2_1_2.png
+        resources/cards/2_1_3.png
+        resources/cards/2_1_4.png
+
+        resources/cards/2_2_1.png
+        resources/cards/2_2_2.png
+        resources/cards/2_2_3.png
+        resources/cards/2_2_4.png
+
+        resources/cards/2_3_1.png
+        resources/cards/2_3_2.png
+        resources/cards/2_3_3.png
+        resources/cards/2_3_4.png
+
+        resources/cards/2_4_1.png
+        resources/cards/2_4_2.png
+        resources/cards/2_4_3.png
+        resources/cards/2_4_4.png
+
+        resources/cards/2_5_1.png
+        resources/cards/2_5_2.png
+        resources/cards/2_5_3.png
+        resources/cards/2_5_4.png
+
+        resources/cards/2_6_1.png
+        resources/cards/2_6_2.png
+        resources/cards/2_6_3.png
+        resources/cards/2_6_4.png
+
+        resources/cards/2_7_1.png
+        resources/cards/2_7_2.png
+        resources/cards/2_7_3.png
+        resources/cards/2_7_4.png
+
+        resources/cards/2_8_1.png
+        resources/cards/2_8_2.png
+        resources/cards/2_8_3.png
+        resources/cards/2_8_4.png
+
+        resources/cards/2_9_1.png
+        resources/cards/2_9_2.png
+        resources/cards/2_9_3.png
+        resources/cards/2_9_4.png
+
+        resources/cards/2_10_1.png
+        resources/cards/2_10_2.png
+        resources/cards/2_10_3.png
+        resources/cards/2_10_4.png
+
+        resources/cards/2_11_1.png
+        resources/cards/2_11_2.png
+        resources/cards/2_11_3.png
+        resources/cards/2_11_4.png
+
+        resources/cards/2_12_1.png
+        resources/cards/2_12_2.png
+        resources/cards/2_12_3.png
+        resources/cards/2_12_4.png
+
+        resources/cards/2_13_1.png
+        resources/cards/2_13_2.png
+        resources/cards/2_13_3.png
+        resources/cards/2_13_4.png
 
         resources/images/promo.jpg
-        resources/images/1_table.png
+        resources/images/plus.png
+        resources/images/left.png
+        resources/images/right.png
+        resources/tables/1_table.png
+        resources/tables/2_table.jpg
+        resources/tables/3_table.png
+
         # resources/cards/backside.png
         # resources/cards/backside_3.png
         # resources/cards/backside_4.png

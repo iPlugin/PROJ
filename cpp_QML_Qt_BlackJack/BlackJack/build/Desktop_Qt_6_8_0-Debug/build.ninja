@@ -180,7 +180,7 @@ build module_appBlackJack_aotstats_targets: phony CMakeFiles/module_appBlackJack
 #############################################
 # Utility command for appBlackJack_tooling
 
-build appBlackJack_tooling: phony BlackJack/Main.qml BlackJack/resources/images/promo.jpg BlackJack/resources/images/1_table.png
+build appBlackJack_tooling: phony BlackJack/Main.qml BlackJack/resources/cards/1_1_1.png BlackJack/resources/cards/1_1_2.png BlackJack/resources/cards/1_1_3.png BlackJack/resources/cards/1_1_4.png BlackJack/resources/cards/1_2_1.png BlackJack/resources/cards/1_2_2.png BlackJack/resources/cards/1_2_3.png BlackJack/resources/cards/1_2_4.png BlackJack/resources/cards/1_3_1.png BlackJack/resources/cards/1_3_2.png BlackJack/resources/cards/1_3_3.png BlackJack/resources/cards/1_3_4.png BlackJack/resources/cards/1_4_1.png BlackJack/resources/cards/1_4_2.png BlackJack/resources/cards/1_4_3.png BlackJack/resources/cards/1_4_4.png BlackJack/resources/cards/1_5_1.png BlackJack/resources/cards/1_5_2.png BlackJack/resources/cards/1_5_3.png BlackJack/resources/cards/1_5_4.png BlackJack/resources/cards/1_6_1.png BlackJack/resources/cards/1_6_2.png BlackJack/resources/cards/1_6_3.png BlackJack/resources/cards/1_6_4.png BlackJack/resources/cards/1_7_1.png BlackJack/resources/cards/1_7_2.png BlackJack/resources/cards/1_7_3.png BlackJack/resources/cards/1_7_4.png BlackJack/resources/cards/1_8_1.png BlackJack/resources/cards/1_8_2.png BlackJack/resources/cards/1_8_3.png BlackJack/resources/cards/1_8_4.png BlackJack/resources/cards/1_9_1.png BlackJack/resources/cards/1_9_2.png BlackJack/resources/cards/1_9_3.png BlackJack/resources/cards/1_9_4.png BlackJack/resources/cards/1_10_1.png BlackJack/resources/cards/1_10_2.png BlackJack/resources/cards/1_10_3.png BlackJack/resources/cards/1_10_4.png BlackJack/resources/cards/1_11_1.png BlackJack/resources/cards/1_11_2.png BlackJack/resources/cards/1_11_3.png BlackJack/resources/cards/1_11_4.png BlackJack/resources/cards/1_12_1.png BlackJack/resources/cards/1_12_2.png BlackJack/resources/cards/1_12_3.png BlackJack/resources/cards/1_12_4.png BlackJack/resources/cards/1_13_1.png BlackJack/resources/cards/1_13_2.png BlackJack/resources/cards/1_13_3.png BlackJack/resources/cards/1_13_4.png BlackJack/resources/cards/2_1_1.png BlackJack/resources/cards/2_1_2.png BlackJack/resources/cards/2_1_3.png BlackJack/resources/cards/2_1_4.png BlackJack/resources/cards/2_2_1.png BlackJack/resources/cards/2_2_2.png BlackJack/resources/cards/2_2_3.png BlackJack/resources/cards/2_2_4.png BlackJack/resources/cards/2_3_1.png BlackJack/resources/cards/2_3_2.png BlackJack/resources/cards/2_3_3.png BlackJack/resources/cards/2_3_4.png BlackJack/resources/cards/2_4_1.png BlackJack/resources/cards/2_4_2.png BlackJack/resources/cards/2_4_3.png BlackJack/resources/cards/2_4_4.png BlackJack/resources/cards/2_5_1.png BlackJack/resources/cards/2_5_2.png BlackJack/resources/cards/2_5_3.png BlackJack/resources/cards/2_5_4.png BlackJack/resources/cards/2_6_1.png BlackJack/resources/cards/2_6_2.png BlackJack/resources/cards/2_6_3.png BlackJack/resources/cards/2_6_4.png BlackJack/resources/cards/2_7_1.png BlackJack/resources/cards/2_7_2.png BlackJack/resources/cards/2_7_3.png BlackJack/resources/cards/2_7_4.png BlackJack/resources/cards/2_8_1.png BlackJack/resources/cards/2_8_2.png BlackJack/resources/cards/2_8_3.png BlackJack/resources/cards/2_8_4.png BlackJack/resources/cards/2_9_1.png BlackJack/resources/cards/2_9_2.png BlackJack/resources/cards/2_9_3.png BlackJack/resources/cards/2_9_4.png BlackJack/resources/cards/2_10_1.png BlackJack/resources/cards/2_10_2.png BlackJack/resources/cards/2_10_3.png BlackJack/resources/cards/2_10_4.png BlackJack/resources/cards/2_11_1.png BlackJack/resources/cards/2_11_2.png BlackJack/resources/cards/2_11_3.png BlackJack/resources/cards/2_11_4.png BlackJack/resources/cards/2_12_1.png BlackJack/resources/cards/2_12_2.png BlackJack/resources/cards/2_12_3.png BlackJack/resources/cards/2_12_4.png BlackJack/resources/cards/2_13_1.png BlackJack/resources/cards/2_13_2.png BlackJack/resources/cards/2_13_3.png BlackJack/resources/cards/2_13_4.png BlackJack/resources/images/promo.jpg BlackJack/resources/images/plus.png BlackJack/resources/images/left.png BlackJack/resources/images/right.png BlackJack/resources/tables/1_table.png BlackJack/resources/tables/2_table.jpg BlackJack/resources/tables/3_table.png
 
 
 #############################################
@@ -321,7 +321,7 @@ build .rcc/qmlcache/appBlackJack_Main_qml.cpp .rcc/qmlcache/appBlackJack_Main_qm
 #############################################
 # Custom command for .qt/rcc/qrc_appBlackJack_raw_qml_0.cpp
 
-build .qt/rcc/qrc_appBlackJack_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appBlackJack_raw_qml_0.cpp: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/Main.qml /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/promo.jpg /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/1_table.png .qt/rcc/appBlackJack_raw_qml_0.qrc /home/iplugin/Qt/6.8.0/gcc_64/libexec/rcc || appBlackJack_autogen appBlackJack_autogen_timestamp_deps appBlackJack_qmlimportscan appBlackJack_tooling
+build .qt/rcc/qrc_appBlackJack_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appBlackJack_raw_qml_0.cpp: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/Main.qml /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_2_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_2_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_2_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_2_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_3_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_3_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_3_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_3_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_4_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_4_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_4_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_4_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_5_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_5_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_5_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_5_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_6_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_6_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_6_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_6_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_7_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_7_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_7_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_7_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_8_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_8_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_8_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_8_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_9_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_9_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_9_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_9_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_10_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_10_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_10_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_10_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_11_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_11_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_11_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_11_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_12_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_12_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_12_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_12_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_2_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_2_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_2_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_2_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_3_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_3_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_3_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_3_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_4_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_4_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_4_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_4_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_5_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_5_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_5_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_5_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_6_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_6_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_6_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_6_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_7_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_7_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_7_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_7_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_8_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_8_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_8_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_8_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_9_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_9_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_9_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_9_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_10_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_10_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_10_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_10_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_11_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_11_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_11_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_11_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_12_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_12_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_12_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_12_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_13_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_13_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_13_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_13_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/promo.jpg /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/plus.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/left.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/right.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/tables/1_table.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/tables/2_table.jpg /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/tables/3_table.png .qt/rcc/appBlackJack_raw_qml_0.qrc /home/iplugin/Qt/6.8.0/gcc_64/libexec/rcc || appBlackJack_autogen appBlackJack_autogen_timestamp_deps appBlackJack_qmlimportscan appBlackJack_tooling
   COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug && /home/iplugin/Qt/6.8.0/gcc_64/libexec/rcc --output /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_appBlackJack_raw_qml_0.cpp --name appBlackJack_raw_qml_0 /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/appBlackJack_raw_qml_0.qrc
   DESC = Running rcc for resource appBlackJack_raw_qml_0
   restat = 1
@@ -399,6 +399,942 @@ build BlackJack/Main.qml | ${cmake_ninja_workdir}BlackJack/Main.qml: CUSTOM_COMM
 
 
 #############################################
+# Custom command for BlackJack/resources/cards/1_1_1.png
+
+build BlackJack/resources/cards/1_1_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_1_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_1_1.png
+  DESC = Copying resources/cards/1_1_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_1_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_1_2.png
+
+build BlackJack/resources/cards/1_1_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_1_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_1_2.png
+  DESC = Copying resources/cards/1_1_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_1_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_1_3.png
+
+build BlackJack/resources/cards/1_1_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_1_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_1_3.png
+  DESC = Copying resources/cards/1_1_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_1_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_1_4.png
+
+build BlackJack/resources/cards/1_1_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_1_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_1_4.png
+  DESC = Copying resources/cards/1_1_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_1_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_2_1.png
+
+build BlackJack/resources/cards/1_2_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_2_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_2_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_2_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_2_1.png
+  DESC = Copying resources/cards/1_2_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_2_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_2_2.png
+
+build BlackJack/resources/cards/1_2_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_2_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_2_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_2_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_2_2.png
+  DESC = Copying resources/cards/1_2_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_2_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_2_3.png
+
+build BlackJack/resources/cards/1_2_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_2_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_2_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_2_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_2_3.png
+  DESC = Copying resources/cards/1_2_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_2_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_2_4.png
+
+build BlackJack/resources/cards/1_2_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_2_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_2_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_2_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_2_4.png
+  DESC = Copying resources/cards/1_2_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_2_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_3_1.png
+
+build BlackJack/resources/cards/1_3_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_3_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_3_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_3_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_3_1.png
+  DESC = Copying resources/cards/1_3_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_3_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_3_2.png
+
+build BlackJack/resources/cards/1_3_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_3_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_3_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_3_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_3_2.png
+  DESC = Copying resources/cards/1_3_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_3_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_3_3.png
+
+build BlackJack/resources/cards/1_3_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_3_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_3_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_3_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_3_3.png
+  DESC = Copying resources/cards/1_3_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_3_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_3_4.png
+
+build BlackJack/resources/cards/1_3_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_3_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_3_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_3_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_3_4.png
+  DESC = Copying resources/cards/1_3_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_3_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_4_1.png
+
+build BlackJack/resources/cards/1_4_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_4_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_4_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_4_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_4_1.png
+  DESC = Copying resources/cards/1_4_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_4_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_4_2.png
+
+build BlackJack/resources/cards/1_4_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_4_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_4_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_4_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_4_2.png
+  DESC = Copying resources/cards/1_4_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_4_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_4_3.png
+
+build BlackJack/resources/cards/1_4_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_4_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_4_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_4_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_4_3.png
+  DESC = Copying resources/cards/1_4_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_4_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_4_4.png
+
+build BlackJack/resources/cards/1_4_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_4_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_4_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_4_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_4_4.png
+  DESC = Copying resources/cards/1_4_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_4_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_5_1.png
+
+build BlackJack/resources/cards/1_5_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_5_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_5_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_5_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_5_1.png
+  DESC = Copying resources/cards/1_5_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_5_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_5_2.png
+
+build BlackJack/resources/cards/1_5_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_5_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_5_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_5_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_5_2.png
+  DESC = Copying resources/cards/1_5_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_5_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_5_3.png
+
+build BlackJack/resources/cards/1_5_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_5_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_5_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_5_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_5_3.png
+  DESC = Copying resources/cards/1_5_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_5_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_5_4.png
+
+build BlackJack/resources/cards/1_5_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_5_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_5_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_5_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_5_4.png
+  DESC = Copying resources/cards/1_5_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_5_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_6_1.png
+
+build BlackJack/resources/cards/1_6_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_6_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_6_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_6_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_6_1.png
+  DESC = Copying resources/cards/1_6_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_6_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_6_2.png
+
+build BlackJack/resources/cards/1_6_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_6_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_6_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_6_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_6_2.png
+  DESC = Copying resources/cards/1_6_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_6_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_6_3.png
+
+build BlackJack/resources/cards/1_6_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_6_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_6_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_6_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_6_3.png
+  DESC = Copying resources/cards/1_6_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_6_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_6_4.png
+
+build BlackJack/resources/cards/1_6_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_6_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_6_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_6_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_6_4.png
+  DESC = Copying resources/cards/1_6_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_6_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_7_1.png
+
+build BlackJack/resources/cards/1_7_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_7_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_7_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_7_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_7_1.png
+  DESC = Copying resources/cards/1_7_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_7_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_7_2.png
+
+build BlackJack/resources/cards/1_7_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_7_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_7_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_7_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_7_2.png
+  DESC = Copying resources/cards/1_7_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_7_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_7_3.png
+
+build BlackJack/resources/cards/1_7_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_7_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_7_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_7_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_7_3.png
+  DESC = Copying resources/cards/1_7_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_7_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_7_4.png
+
+build BlackJack/resources/cards/1_7_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_7_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_7_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_7_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_7_4.png
+  DESC = Copying resources/cards/1_7_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_7_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_8_1.png
+
+build BlackJack/resources/cards/1_8_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_8_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_8_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_8_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_8_1.png
+  DESC = Copying resources/cards/1_8_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_8_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_8_2.png
+
+build BlackJack/resources/cards/1_8_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_8_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_8_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_8_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_8_2.png
+  DESC = Copying resources/cards/1_8_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_8_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_8_3.png
+
+build BlackJack/resources/cards/1_8_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_8_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_8_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_8_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_8_3.png
+  DESC = Copying resources/cards/1_8_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_8_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_8_4.png
+
+build BlackJack/resources/cards/1_8_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_8_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_8_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_8_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_8_4.png
+  DESC = Copying resources/cards/1_8_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_8_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_9_1.png
+
+build BlackJack/resources/cards/1_9_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_9_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_9_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_9_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_9_1.png
+  DESC = Copying resources/cards/1_9_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_9_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_9_2.png
+
+build BlackJack/resources/cards/1_9_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_9_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_9_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_9_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_9_2.png
+  DESC = Copying resources/cards/1_9_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_9_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_9_3.png
+
+build BlackJack/resources/cards/1_9_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_9_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_9_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_9_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_9_3.png
+  DESC = Copying resources/cards/1_9_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_9_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_9_4.png
+
+build BlackJack/resources/cards/1_9_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_9_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_9_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_9_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_9_4.png
+  DESC = Copying resources/cards/1_9_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_9_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_10_1.png
+
+build BlackJack/resources/cards/1_10_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_10_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_10_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_10_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_10_1.png
+  DESC = Copying resources/cards/1_10_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_10_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_10_2.png
+
+build BlackJack/resources/cards/1_10_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_10_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_10_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_10_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_10_2.png
+  DESC = Copying resources/cards/1_10_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_10_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_10_3.png
+
+build BlackJack/resources/cards/1_10_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_10_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_10_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_10_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_10_3.png
+  DESC = Copying resources/cards/1_10_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_10_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_10_4.png
+
+build BlackJack/resources/cards/1_10_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_10_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_10_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_10_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_10_4.png
+  DESC = Copying resources/cards/1_10_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_10_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_11_1.png
+
+build BlackJack/resources/cards/1_11_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_11_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_11_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_11_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_11_1.png
+  DESC = Copying resources/cards/1_11_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_11_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_11_2.png
+
+build BlackJack/resources/cards/1_11_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_11_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_11_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_11_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_11_2.png
+  DESC = Copying resources/cards/1_11_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_11_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_11_3.png
+
+build BlackJack/resources/cards/1_11_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_11_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_11_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_11_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_11_3.png
+  DESC = Copying resources/cards/1_11_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_11_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_11_4.png
+
+build BlackJack/resources/cards/1_11_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_11_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_11_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_11_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_11_4.png
+  DESC = Copying resources/cards/1_11_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_11_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_12_1.png
+
+build BlackJack/resources/cards/1_12_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_12_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_12_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_12_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_12_1.png
+  DESC = Copying resources/cards/1_12_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_12_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_12_2.png
+
+build BlackJack/resources/cards/1_12_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_12_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_12_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_12_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_12_2.png
+  DESC = Copying resources/cards/1_12_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_12_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_12_3.png
+
+build BlackJack/resources/cards/1_12_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_12_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_12_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_12_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_12_3.png
+  DESC = Copying resources/cards/1_12_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_12_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_12_4.png
+
+build BlackJack/resources/cards/1_12_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_12_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_12_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_12_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_12_4.png
+  DESC = Copying resources/cards/1_12_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_12_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_13_1.png
+
+build BlackJack/resources/cards/1_13_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_13_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_13_1.png
+  DESC = Copying resources/cards/1_13_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_13_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_13_2.png
+
+build BlackJack/resources/cards/1_13_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_13_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_13_2.png
+  DESC = Copying resources/cards/1_13_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_13_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_13_3.png
+
+build BlackJack/resources/cards/1_13_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_13_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_13_3.png
+  DESC = Copying resources/cards/1_13_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_13_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/1_13_4.png
+
+build BlackJack/resources/cards/1_13_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/1_13_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_13_4.png
+  DESC = Copying resources/cards/1_13_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/1_13_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_1_1.png
+
+build BlackJack/resources/cards/2_1_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_1_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_1_1.png
+  DESC = Copying resources/cards/2_1_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_1_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_1_2.png
+
+build BlackJack/resources/cards/2_1_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_1_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_1_2.png
+  DESC = Copying resources/cards/2_1_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_1_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_1_3.png
+
+build BlackJack/resources/cards/2_1_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_1_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_1_3.png
+  DESC = Copying resources/cards/2_1_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_1_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_1_4.png
+
+build BlackJack/resources/cards/2_1_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_1_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_1_4.png
+  DESC = Copying resources/cards/2_1_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_1_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_2_1.png
+
+build BlackJack/resources/cards/2_2_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_2_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_2_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_2_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_2_1.png
+  DESC = Copying resources/cards/2_2_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_2_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_2_2.png
+
+build BlackJack/resources/cards/2_2_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_2_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_2_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_2_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_2_2.png
+  DESC = Copying resources/cards/2_2_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_2_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_2_3.png
+
+build BlackJack/resources/cards/2_2_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_2_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_2_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_2_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_2_3.png
+  DESC = Copying resources/cards/2_2_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_2_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_2_4.png
+
+build BlackJack/resources/cards/2_2_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_2_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_2_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_2_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_2_4.png
+  DESC = Copying resources/cards/2_2_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_2_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_3_1.png
+
+build BlackJack/resources/cards/2_3_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_3_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_3_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_3_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_3_1.png
+  DESC = Copying resources/cards/2_3_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_3_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_3_2.png
+
+build BlackJack/resources/cards/2_3_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_3_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_3_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_3_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_3_2.png
+  DESC = Copying resources/cards/2_3_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_3_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_3_3.png
+
+build BlackJack/resources/cards/2_3_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_3_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_3_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_3_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_3_3.png
+  DESC = Copying resources/cards/2_3_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_3_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_3_4.png
+
+build BlackJack/resources/cards/2_3_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_3_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_3_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_3_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_3_4.png
+  DESC = Copying resources/cards/2_3_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_3_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_4_1.png
+
+build BlackJack/resources/cards/2_4_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_4_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_4_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_4_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_4_1.png
+  DESC = Copying resources/cards/2_4_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_4_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_4_2.png
+
+build BlackJack/resources/cards/2_4_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_4_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_4_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_4_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_4_2.png
+  DESC = Copying resources/cards/2_4_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_4_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_4_3.png
+
+build BlackJack/resources/cards/2_4_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_4_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_4_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_4_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_4_3.png
+  DESC = Copying resources/cards/2_4_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_4_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_4_4.png
+
+build BlackJack/resources/cards/2_4_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_4_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_4_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_4_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_4_4.png
+  DESC = Copying resources/cards/2_4_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_4_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_5_1.png
+
+build BlackJack/resources/cards/2_5_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_5_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_5_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_5_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_5_1.png
+  DESC = Copying resources/cards/2_5_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_5_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_5_2.png
+
+build BlackJack/resources/cards/2_5_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_5_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_5_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_5_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_5_2.png
+  DESC = Copying resources/cards/2_5_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_5_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_5_3.png
+
+build BlackJack/resources/cards/2_5_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_5_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_5_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_5_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_5_3.png
+  DESC = Copying resources/cards/2_5_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_5_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_5_4.png
+
+build BlackJack/resources/cards/2_5_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_5_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_5_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_5_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_5_4.png
+  DESC = Copying resources/cards/2_5_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_5_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_6_1.png
+
+build BlackJack/resources/cards/2_6_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_6_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_6_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_6_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_6_1.png
+  DESC = Copying resources/cards/2_6_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_6_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_6_2.png
+
+build BlackJack/resources/cards/2_6_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_6_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_6_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_6_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_6_2.png
+  DESC = Copying resources/cards/2_6_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_6_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_6_3.png
+
+build BlackJack/resources/cards/2_6_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_6_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_6_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_6_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_6_3.png
+  DESC = Copying resources/cards/2_6_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_6_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_6_4.png
+
+build BlackJack/resources/cards/2_6_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_6_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_6_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_6_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_6_4.png
+  DESC = Copying resources/cards/2_6_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_6_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_7_1.png
+
+build BlackJack/resources/cards/2_7_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_7_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_7_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_7_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_7_1.png
+  DESC = Copying resources/cards/2_7_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_7_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_7_2.png
+
+build BlackJack/resources/cards/2_7_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_7_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_7_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_7_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_7_2.png
+  DESC = Copying resources/cards/2_7_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_7_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_7_3.png
+
+build BlackJack/resources/cards/2_7_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_7_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_7_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_7_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_7_3.png
+  DESC = Copying resources/cards/2_7_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_7_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_7_4.png
+
+build BlackJack/resources/cards/2_7_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_7_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_7_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_7_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_7_4.png
+  DESC = Copying resources/cards/2_7_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_7_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_8_1.png
+
+build BlackJack/resources/cards/2_8_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_8_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_8_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_8_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_8_1.png
+  DESC = Copying resources/cards/2_8_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_8_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_8_2.png
+
+build BlackJack/resources/cards/2_8_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_8_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_8_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_8_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_8_2.png
+  DESC = Copying resources/cards/2_8_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_8_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_8_3.png
+
+build BlackJack/resources/cards/2_8_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_8_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_8_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_8_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_8_3.png
+  DESC = Copying resources/cards/2_8_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_8_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_8_4.png
+
+build BlackJack/resources/cards/2_8_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_8_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_8_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_8_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_8_4.png
+  DESC = Copying resources/cards/2_8_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_8_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_9_1.png
+
+build BlackJack/resources/cards/2_9_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_9_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_9_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_9_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_9_1.png
+  DESC = Copying resources/cards/2_9_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_9_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_9_2.png
+
+build BlackJack/resources/cards/2_9_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_9_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_9_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_9_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_9_2.png
+  DESC = Copying resources/cards/2_9_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_9_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_9_3.png
+
+build BlackJack/resources/cards/2_9_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_9_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_9_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_9_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_9_3.png
+  DESC = Copying resources/cards/2_9_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_9_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_9_4.png
+
+build BlackJack/resources/cards/2_9_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_9_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_9_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_9_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_9_4.png
+  DESC = Copying resources/cards/2_9_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_9_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_10_1.png
+
+build BlackJack/resources/cards/2_10_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_10_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_10_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_10_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_10_1.png
+  DESC = Copying resources/cards/2_10_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_10_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_10_2.png
+
+build BlackJack/resources/cards/2_10_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_10_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_10_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_10_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_10_2.png
+  DESC = Copying resources/cards/2_10_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_10_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_10_3.png
+
+build BlackJack/resources/cards/2_10_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_10_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_10_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_10_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_10_3.png
+  DESC = Copying resources/cards/2_10_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_10_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_10_4.png
+
+build BlackJack/resources/cards/2_10_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_10_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_10_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_10_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_10_4.png
+  DESC = Copying resources/cards/2_10_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_10_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_11_1.png
+
+build BlackJack/resources/cards/2_11_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_11_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_11_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_11_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_11_1.png
+  DESC = Copying resources/cards/2_11_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_11_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_11_2.png
+
+build BlackJack/resources/cards/2_11_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_11_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_11_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_11_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_11_2.png
+  DESC = Copying resources/cards/2_11_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_11_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_11_3.png
+
+build BlackJack/resources/cards/2_11_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_11_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_11_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_11_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_11_3.png
+  DESC = Copying resources/cards/2_11_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_11_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_11_4.png
+
+build BlackJack/resources/cards/2_11_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_11_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_11_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_11_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_11_4.png
+  DESC = Copying resources/cards/2_11_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_11_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_12_1.png
+
+build BlackJack/resources/cards/2_12_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_12_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_12_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_12_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_12_1.png
+  DESC = Copying resources/cards/2_12_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_12_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_12_2.png
+
+build BlackJack/resources/cards/2_12_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_12_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_12_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_12_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_12_2.png
+  DESC = Copying resources/cards/2_12_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_12_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_12_3.png
+
+build BlackJack/resources/cards/2_12_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_12_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_12_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_12_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_12_3.png
+  DESC = Copying resources/cards/2_12_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_12_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_12_4.png
+
+build BlackJack/resources/cards/2_12_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_12_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_12_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_12_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_12_4.png
+  DESC = Copying resources/cards/2_12_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_12_4.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_13_1.png
+
+build BlackJack/resources/cards/2_13_1.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_13_1.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_13_1.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_13_1.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_13_1.png
+  DESC = Copying resources/cards/2_13_1.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_13_1.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_13_2.png
+
+build BlackJack/resources/cards/2_13_2.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_13_2.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_13_2.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_13_2.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_13_2.png
+  DESC = Copying resources/cards/2_13_2.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_13_2.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_13_3.png
+
+build BlackJack/resources/cards/2_13_3.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_13_3.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_13_3.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_13_3.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_13_3.png
+  DESC = Copying resources/cards/2_13_3.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_13_3.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/cards/2_13_4.png
+
+build BlackJack/resources/cards/2_13_4.png | ${cmake_ninja_workdir}BlackJack/resources/cards/2_13_4.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_13_4.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_13_4.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_13_4.png
+  DESC = Copying resources/cards/2_13_4.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/cards/2_13_4.png
+  restat = 1
+
+
+#############################################
 # Custom command for BlackJack/resources/images/promo.jpg
 
 build BlackJack/resources/images/promo.jpg | ${cmake_ninja_workdir}BlackJack/resources/images/promo.jpg: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/promo.jpg
@@ -408,11 +1344,56 @@ build BlackJack/resources/images/promo.jpg | ${cmake_ninja_workdir}BlackJack/res
 
 
 #############################################
-# Custom command for BlackJack/resources/images/1_table.png
+# Custom command for BlackJack/resources/images/plus.png
 
-build BlackJack/resources/images/1_table.png | ${cmake_ninja_workdir}BlackJack/resources/images/1_table.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/1_table.png
-  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/1_table.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/images/1_table.png
-  DESC = Copying resources/images/1_table.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/images/1_table.png
+build BlackJack/resources/images/plus.png | ${cmake_ninja_workdir}BlackJack/resources/images/plus.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/plus.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/plus.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/images/plus.png
+  DESC = Copying resources/images/plus.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/images/plus.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/images/left.png
+
+build BlackJack/resources/images/left.png | ${cmake_ninja_workdir}BlackJack/resources/images/left.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/left.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/left.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/images/left.png
+  DESC = Copying resources/images/left.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/images/left.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/images/right.png
+
+build BlackJack/resources/images/right.png | ${cmake_ninja_workdir}BlackJack/resources/images/right.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/right.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/right.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/images/right.png
+  DESC = Copying resources/images/right.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/images/right.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/tables/1_table.png
+
+build BlackJack/resources/tables/1_table.png | ${cmake_ninja_workdir}BlackJack/resources/tables/1_table.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/tables/1_table.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/tables/1_table.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/tables/1_table.png
+  DESC = Copying resources/tables/1_table.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/tables/1_table.png
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/tables/2_table.jpg
+
+build BlackJack/resources/tables/2_table.jpg | ${cmake_ninja_workdir}BlackJack/resources/tables/2_table.jpg: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/tables/2_table.jpg
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/tables/2_table.jpg /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/tables/2_table.jpg
+  DESC = Copying resources/tables/2_table.jpg to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/tables/2_table.jpg
+  restat = 1
+
+
+#############################################
+# Custom command for BlackJack/resources/tables/3_table.png
+
+build BlackJack/resources/tables/3_table.png | ${cmake_ninja_workdir}BlackJack/resources/tables/3_table.png: CUSTOM_COMMAND /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/tables/3_table.png
+  COMMAND = cd /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack && /home/iplugin/Qt/Tools/CMake/bin/cmake -E copy /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/tables/3_table.png /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/tables/3_table.png
+  DESC = Copying resources/tables/3_table.png to /home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/resources/tables/3_table.png
   restat = 1
 
 
