@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/qt/qml/BlackJack/">
     <file alias="Main.qml">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/Main.qml</file>
+    <file alias="resources/cards/1_0_0.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_0_0.png</file>
     <file alias="resources/cards/1_1_1.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_1.png</file>
     <file alias="resources/cards/1_1_2.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_2.png</file>
     <file alias="resources/cards/1_1_3.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_1_3.png</file>
@@ -53,6 +54,7 @@
     <file alias="resources/cards/1_13_2.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_2.png</file>
     <file alias="resources/cards/1_13_3.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_3.png</file>
     <file alias="resources/cards/1_13_4.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/1_13_4.png</file>
+    <file alias="resources/cards/2_0_0.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_0_0.png</file>
     <file alias="resources/cards/2_1_1.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_1.png</file>
     <file alias="resources/cards/2_1_2.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_2.png</file>
     <file alias="resources/cards/2_1_3.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/cards/2_1_3.png</file>
@@ -109,6 +111,15 @@
     <file alias="resources/images/plus.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/plus.png</file>
     <file alias="resources/images/left.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/left.png</file>
     <file alias="resources/images/right.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/right.png</file>
+    <file alias="resources/images/play-round.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/play-round.png</file>
+    <file alias="resources/images/10-chip.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/10-chip.png</file>
+    <file alias="resources/images/25-chip.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/25-chip.png</file>
+    <file alias="resources/images/50-chip.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/50-chip.png</file>
+    <file alias="resources/images/100-chip.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/100-chip.png</file>
+    <file alias="resources/images/hit.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/hit.png</file>
+    <file alias="resources/images/stand.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/stand.png</file>
+    <file alias="resources/images/return.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/return.png</file>
+    <file alias="resources/images/joker.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/images/joker.png</file>
     <file alias="resources/tables/1_table.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/tables/1_table.png</file>
     <file alias="resources/tables/2_table.jpg">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/tables/2_table.jpg</file>
     <file alias="resources/tables/3_table.png">/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/resources/tables/3_table.png</file>

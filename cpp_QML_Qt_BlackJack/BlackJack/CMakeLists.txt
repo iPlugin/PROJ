@@ -10,6 +10,7 @@ qt_standard_project_setup(REQUIRES 6.5)
 
 qt_add_executable(appBlackJack
     main.cpp
+
 )
 
 qt_add_qml_module(appBlackJack
@@ -17,6 +18,8 @@ qt_add_qml_module(appBlackJack
     VERSION 1.0
     QML_FILES Main.qml
     RESOURCES
+        resources/cards/1_0_0.png
+
         resources/cards/1_1_1.png
         resources/cards/1_1_2.png
         resources/cards/1_1_3.png
@@ -81,6 +84,8 @@ qt_add_qml_module(appBlackJack
         resources/cards/1_13_2.png
         resources/cards/1_13_3.png
         resources/cards/1_13_4.png
+
+        resources/cards/2_0_0.png
 
         resources/cards/2_1_1.png
         resources/cards/2_1_2.png
@@ -151,6 +156,17 @@ qt_add_qml_module(appBlackJack
         resources/images/plus.png
         resources/images/left.png
         resources/images/right.png
+        resources/images/play-round.png
+
+        resources/images/10-chip.png
+        resources/images/25-chip.png
+        resources/images/50-chip.png
+        resources/images/100-chip.png
+        resources/images/hit.png
+        resources/images/stand.png
+        resources/images/return.png
+        resources/images/joker.png
+
         resources/tables/1_table.png
         resources/tables/2_table.jpg
         resources/tables/3_table.png

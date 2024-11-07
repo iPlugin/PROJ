@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "GameLogic",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "page_cards",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "generateCardPath",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "GameLogic",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "GameLogic.h",
+    "outputRevision": 68
+}

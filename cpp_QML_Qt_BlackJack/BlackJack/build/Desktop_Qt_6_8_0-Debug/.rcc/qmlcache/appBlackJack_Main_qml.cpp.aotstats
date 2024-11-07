@@ -6,18 +6,18 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 26,
-                        "durationMicroseconds": 103,
+                        "durationMicroseconds": 292,
                         "errorMessage": "Cannot retrieve a non-object type by ID: window",
                         "functionName": "onPressed",
-                        "line": 23
+                        "line": 26
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 82,
+                        "durationMicroseconds": 153,
                         "errorMessage": "",
                         "functionName": "onPressed",
-                        "line": 23
+                        "line": 26
                     },
                     {
                         "codegenSuccessfull": false,
@@ -25,7 +25,7 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on initialItem.",
                         "functionName": "initialItem",
-                        "line": 42
+                        "line": 45
                     },
                     {
                         "codegenSuccessfull": false,
@@ -33,199 +33,535 @@
                         "durationMicroseconds": 0,
                         "errorMessage": "Cannot resolve property type  for binding on fill.",
                         "functionName": "fill",
-                        "line": 41
+                        "line": 44
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 161,
                         "errorMessage": "",
                         "functionName": "fillMode",
-                        "line": 52
+                        "line": 55
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 67,
+                        "durationMicroseconds": 98,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 51
+                        "line": 54
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 155,
+                        "durationMicroseconds": 189,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 60
+                        "line": 63
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 131,
+                        "durationMicroseconds": 184,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 61
+                        "line": 64
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 132,
+                        "durationMicroseconds": 180,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 66
+                        "line": 69
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 128,
+                        "durationMicroseconds": 154,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 68
+                        "line": 71
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 84,
+                        "durationMicroseconds": 95,
                         "errorMessage": "",
                         "functionName": "fillMode",
-                        "line": 76
-                    },
-                    {
-                        "codegenSuccessfull": false,
-                        "column": 36,
-                        "durationMicroseconds": 31,
-                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
-                        "functionName": "onClicked",
                         "line": 79
                     },
                     {
+                        "codegenSuccessfull": false,
+                        "column": 36,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "onClicked",
+                        "line": 82
+                    },
+                    {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 72,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 78
+                        "line": 81
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 30,
+                        "durationMicroseconds": 48,
                         "errorMessage": "Cannot retrieve a non-object type by ID: window",
                         "functionName": "source",
-                        "line": 86
+                        "line": 89
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 83,
+                        "durationMicroseconds": 203,
                         "errorMessage": "",
                         "functionName": "fillMode",
-                        "line": 102
+                        "line": 99
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 85,
+                        "durationMicroseconds": 101,
                         "errorMessage": "",
                         "functionName": "fillMode",
-                        "line": 109
+                        "line": 106
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 29,
+                        "durationMicroseconds": 35,
                         "errorMessage": "Cannot retrieve a non-object type by ID: window",
                         "functionName": "onClicked",
-                        "line": 112
+                        "line": 109
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 73,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 111
+                        "line": 108
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 134,
+                        "durationMicroseconds": 173,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 121
+                        "line": 118
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 132,
+                        "durationMicroseconds": 160,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 123
+                        "line": 120
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 82,
+                        "durationMicroseconds": 144,
                         "errorMessage": "",
                         "functionName": "fillMode",
-                        "line": 132
+                        "line": 129
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 30,
+                        "durationMicroseconds": 61,
                         "errorMessage": "Cannot retrieve a non-object type by ID: window",
                         "functionName": "onClicked",
-                        "line": 135
+                        "line": 132
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
-                        "durationMicroseconds": 62,
+                        "durationMicroseconds": 94,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 134
+                        "line": 131
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 29,
-                        "durationMicroseconds": 31,
+                        "durationMicroseconds": 59,
                         "errorMessage": "Cannot retrieve a non-object type by ID: window",
                         "functionName": "source",
-                        "line": 143
+                        "line": 140
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 82,
+                        "durationMicroseconds": 124,
                         "errorMessage": "",
                         "functionName": "fillMode",
-                        "line": 162
+                        "line": 150
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 149,
                         "errorMessage": "",
                         "functionName": "fillMode",
-                        "line": 170
+                        "line": 158
                     },
                     {
                         "codegenSuccessfull": false,
                         "column": 36,
-                        "durationMicroseconds": 30,
+                        "durationMicroseconds": 44,
                         "errorMessage": "Cannot retrieve a non-object type by ID: window",
                         "functionName": "onClicked",
-                        "line": 173
+                        "line": 161
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 39,
+                        "durationMicroseconds": 83,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 160
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "source",
+                        "line": 175
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 102,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 177
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 80,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 176
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "text",
+                        "line": 181
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 164,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 184
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 43,
+                        "durationMicroseconds": 181,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 185
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 32,
+                        "durationMicroseconds": 159,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 217
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 153,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 218
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 32,
+                        "durationMicroseconds": 214,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 228
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 160,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 229
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 32,
+                        "durationMicroseconds": 287,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 239
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 266,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 240
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 32,
+                        "durationMicroseconds": 1468,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 244
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 227,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 243
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 32,
+                        "durationMicroseconds": 382,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 266
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 206,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 267
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 110,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "onClicked",
+                        "line": 271
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 77,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 270
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 172,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 286
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 168,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 287
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "onClicked",
+                        "line": 291
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
                         "durationMicroseconds": 75,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 172
+                        "line": 290
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 32,
+                        "durationMicroseconds": 156,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 306
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 149,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 307
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "onClicked",
+                        "line": 311
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 310
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 32,
+                        "durationMicroseconds": 170,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 326
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 162,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 327
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "onClicked",
+                        "line": 331
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 330
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 32,
+                        "durationMicroseconds": 149,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 346
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 142,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 347
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "onClicked",
+                        "line": 351
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 35,
+                        "durationMicroseconds": 72,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 350
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "width",
+                        "line": 363
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 21,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "height",
+                        "line": 364
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "source",
+                        "line": 369
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 93,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 370
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "y",
+                        "line": 371
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 95,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 378
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "to",
+                        "line": 381
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 33,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "onFinished",
+                        "line": 382
                     },
                     {
                         "codegenSuccessfull": false,
@@ -233,71 +569,191 @@
                         "durationMicroseconds": 29,
                         "errorMessage": "Cannot retrieve a non-object type by ID: window",
                         "functionName": "source",
-                        "line": 187
+                        "line": 394
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "x",
+                        "line": 395
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "y",
+                        "line": 396
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 27,
-                        "durationMicroseconds": 83,
+                        "column": 29,
+                        "durationMicroseconds": 97,
                         "errorMessage": "",
-                        "functionName": "fillMode",
-                        "line": 202
+                        "functionName": "target",
+                        "line": 403
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "to",
+                        "line": 406
                     },
                     {
                         "codegenSuccessfull": true,
-                        "column": 31,
-                        "durationMicroseconds": 62,
+                        "column": 33,
+                        "durationMicroseconds": 220,
                         "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 201
+                        "functionName": "onFinished",
+                        "line": 407
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "width",
+                        "line": 419
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 21,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "height",
+                        "line": 420
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "source",
+                        "line": 425
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 103,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 426
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "y",
+                        "line": 427
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 96,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 434
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "to",
+                        "line": 437
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 33,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "onFinished",
+                        "line": 438
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "source",
+                        "line": 450
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "x",
+                        "line": 451
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "y",
+                        "line": 452
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 29,
+                        "durationMicroseconds": 97,
+                        "errorMessage": "",
+                        "functionName": "target",
+                        "line": 459
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 25,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "to",
+                        "line": 462
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 33,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "Cannot retrieve a non-object type by ID: window",
+                        "functionName": "onFinished",
+                        "line": 463
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 134,
+                        "durationMicroseconds": 161,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 210
+                        "line": 483
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 128,
+                        "durationMicroseconds": 145,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 211
+                        "line": 484
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 43,
-                        "durationMicroseconds": 131,
+                        "durationMicroseconds": 149,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
-                        "line": 226
+                        "line": 499
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 41,
-                        "durationMicroseconds": 131,
+                        "durationMicroseconds": 146,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 227
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 43,
-                        "durationMicroseconds": 130,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 242
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 41,
-                        "durationMicroseconds": 127,
-                        "errorMessage": "",
-                        "functionName": "verticalCenter",
-                        "line": 243
+                        "line": 500
                     }
                 ],
                 "filepath": "/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/Main.qml"

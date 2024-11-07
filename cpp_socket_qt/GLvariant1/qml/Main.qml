@@ -1,447 +1,175 @@
-import QtQuick
-import QtQuick.Window
-import QtQuick.Controls
-
-Window {
-    property bool darkMode: false
-    property bool openMenu: false
-
-    id: winApp
-    width: 800
-    height: 540
-    maximumWidth: 800
-    minimumWidth: 800
-    maximumHeight: 540
-    minimumHeight: 540
-    visible: true
-    title: qsTr("FileServer")
-
-    StackView {
-        id: stackView
-        anchors.fill: parent
-        initialItem: p2_sockConnect
-
-
-        Component {
-            id: p1_main
-            Page {
-                background: Rectangle {
-                    color: winApp.darkMode ? Qt.rgba(0.1294, 0.1451, 0.1608) : Qt.rgba(0.90196, 0.90588, 0.90980)
+Component {
+    id: secondPage
+    Page {
+        Image {
+            id: bckImg
+            source: "resources/tables/" + window.page_tables + "_table.png"
+            anchors.fill: parent
+            fillMode: Image.PreserveAspectCrop
+        }
+        Image {
+            id: buttonPlay
+            source: "resources/images/play-round.png"
+            width: 70
+            height: 70
+            anchors.centerIn: parent
+            visible: true
+            // Оголошення таймерів на рівні компонента
+            Timer {
+                id: timer1
+                interval: 500
+                running: false
+                repeat: false
+                onTimeout: {
+                    leftCard.visible = true;
+                    flyLeftCard.start();
+                    // Запуск наступного таймера
+                    timer2.start();
                 }
-
-                // Menu
-                Button {
-                    id: btnMenu
-
-                    width: 24
-                    height: 24
-
-                    background: Image {
-                        source: winApp.darkMode ? "qrc:iconsDark/assets/icons/dark/setting.png" : "qrc:iconsLight/assets/icons/light/setting.png"
-                        fillMode: Image.PreserveAspectCrop
-                    }
-
-                    onClicked: menu.visible = menu.visible ? false : true
+            }
+            
+            Timer {
+                id: timer2
+                interval: 500
+                running: false
+                repeat: false
+                onTimeout: {
+                    rightCard.visible = true;
+                    flyRightCard.start();
+                    // Запуск наступного таймера
+                    timer3.start();
                 }
+            }
+            
+            Timer {
+                id: timer3
+                interval: 500
+                running: false
+                repeat: false
+                onTimeout: {
+                    leftCard2.visible = true;
+                    flyLeftCard2.start();
+                    // Запуск наступного таймера
+                    timer4.start();
+                }
+            }
+            
+            Timer {
+                id: timer4
+                interval: 500
+                running: false
+                repeat: false
+                onTimeout: {
+                    rightCard2.visible = true;
+                    flyRightCard2.start();
+                }
+            }
+            
+            MouseArea {
+                anchors.fill: parent
+                onClicked: {
+                    buttonPlay.visible = false;
+                    // Запуск першого таймера
+                    timer1.start();
+                }
+            }
+            
+            
+        }
+        Item {
+            id: cardAnimationContainer
+            width: window.width
+            height: window.height
 
-                Column {
-                    id: menu
-                    visible: false
+            // Перша карта зліва
+            Image {
+                id: leftCard
+                source: "resources/cards/" + window.page_cards + "_0_0.png"
+                x: -width  // початкове розташування за межами лівого краю
+                y: window.height / 2 - height - 100
+                width: 70
+                height: 120
+                visible: false  // приховано до початку анімації
 
-                    spacing: 10
-                    width: 24
-                    y: btnMenu.height + 10
-
-                    Image {
-                        id: imgSun
-                        source: winApp.darkMode ? "qrc:iconsDark/assets/icons/dark/sun.png" : "qrc:iconsLight/assets/icons/light/sun.png"
-                        width: 24
-                        height: 24
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: winApp.darkMode = winApp.darkMode ? false : true
-                        }
-                    }
-
-                    Image {
-                        id: imgExit
-                        source: winApp.darkMode ? "qrc:iconsDark/assets/icons/dark/exit.png" : "qrc:iconsLight/assets/icons/light/exit.png"
-                        width: 24
-                        height: 24
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: Qt.quit()
-                        }
+                PropertyAnimation {
+                    id: flyLeftCard
+                    target: leftCard
+                    properties: "x"
+                    duration: 1000
+                    to: window.width / 2 - 85  // кінцеве положення карти по горизонталі
+                    onFinished: {
+                        leftCard.source = "resources/cards/" + window.page_cards + "_10_2.png";
                     }
                 }
+            }
 
-                // Headers
-                Label {
-                    id: txtHead
-                    text: "File Server"
-                    font.family: "Ubuntu"
-                    font.pixelSize: 30;
-                    font.bold: true
-                    color: winApp.darkMode ? Qt.rgba(0.95294, 0.43922, 0.21569) : Qt.rgba(0.1294, 0.1451, 0.1608)
+            // Друга карта з правого боку
+            Image {
+                id: rightCard
+                source: "resources/cards/" + window.page_cards + "_0_0.png"
+                x: window.width  // початкове розташування за межами правого краю
+                y: window.height / 2 - height - 100
+                width: 70
+                height: 120
+                visible: false
 
-                    anchors {
-                        centerIn: parent
-                        verticalCenterOffset: -40
-                    }
-                }
-
-                Text {
-                    id: txtInfo
-                    text: "This server is designed to search\nfor a file on a remote host"
-                    horizontalAlignment: Text.AlignHCenter
-                    color: winApp.darkMode ? Qt.rgba(0.90196, 0.90588, 0.90980) : Qt.rgba(0.95294, 0.43922, 0.21569)
-
-                    anchors {
-                        centerIn: parent
-                    }
-
-                    font.family: "Ubuntu"
-                    font.pixelSize: 15;
-                    font.bold: true
-                }
-
-                Button {
-                    id: btnStart
-
-                    width: 150
-                    height: 25
-
-                    Text {
-                        id: txtStart
-                        text: "start"
-                        font.family: "Ubuntu"
-                        color: winApp.darkMode ? Qt.rgba(0.1294, 0.1451, 0.1608) : Qt.rgba(0.90196, 0.90588, 0.90980)
-                        font.bold: true
-
-                        horizontalAlignment: Text.AlignHCenter
-                        anchors.centerIn: parent
-                    }
-
-                    anchors {
-                        centerIn: parent
-                        verticalCenterOffset: 40
-                    }
-
-                    background: Rectangle {
-                        color: winApp.darkMode ? Qt.rgba(0.95294, 0.43922, 0.21569) : Qt.rgba(0.1294, 0.1451, 0.1608)
-                        radius: 10
-                    }
-                    onClicked: stackView.push(p2_sockConnect)
+                PropertyAnimation {
+                    id: flyRightCard
+                    target: rightCard
+                    properties: "x"
+                    duration: 1000
+                    to: window.width / 2 + 15  // кінцеве положення карти по горизонталі
                 }
             }
         }
-        Component {
-            id: p2_sockConnect
-            Page {
-                background: Rectangle {
-                    color: winApp.darkMode ? Qt.rgba(0.1294, 0.1451, 0.1608) : Qt.rgba(0.90196, 0.90588, 0.90980)
-                }
+        Item {
+            id: cardAnimationContainer2
+            width: window.width
+            height: window.height
 
-                // Menu
-                Button {
-                    id: btnMenu
+            // Перша карта зліва
+            Image {
+                id: leftCard2
+                source: "resources/cards/" + window.page_cards + "_0_0.png"
+                x: -width  // початкове розташування за межами лівого краю
+                y: window.height / 2 - height + 250
+                width: 70
+                height: 120
+                visible: false  // приховано до початку анімації
 
-                    width: 24
-                    height: 24
-
-                    background: Image {
-                        source: winApp.darkMode ? "qrc:iconsDark/assets/icons/dark/setting.png" : "qrc:iconsLight/assets/icons/light/setting.png"
-                        fillMode: Image.PreserveAspectCrop
-                    }
-
-                    onClicked: menu.visible = menu.visible ? false : true
-                }
-
-                Column {
-                    id: menu
-                    visible: false
-
-                    spacing: 10
-                    width: 24
-                    y: btnMenu.height + 10
-
-                    Image {
-                        id: imgSun
-                        source: winApp.darkMode ? "qrc:iconsDark/assets/icons/dark/sun.png" : "qrc:iconsLight/assets/icons/light/sun.png"
-                        width: 24
-                        height: 24
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: winApp.darkMode = winApp.darkMode ? false : true
-                        }
-                    }
-
-                    Image {
-                        id: imgExit
-                        source: winApp.darkMode ? "qrc:iconsDark/assets/icons/dark/exit.png" : "qrc:iconsLight/assets/icons/light/exit.png"
-                        width: 24
-                        height: 24
-                        MouseArea {
-                            anchors.fill: parent
-                            onClicked: Qt.quit()
-                        }
-                    }
-                }
-
-                // Left side
-                Column {
-                    id: sideServer
-                    spacing: 20
-                    anchors {
-
-                        left: parent.left
-                        top: parent.top
-                        topMargin: 30
-                        bottom: parent.bottom
-                    }
-                    width: parent.width / 2
-
-                    Label {
-                        id: lblServerSide
-                        text: "Server Side"
-                        font.family: "Ubuntu"
-                        font.pixelSize: 30;
-                        font.bold: true
-                        color: winApp.darkMode ? Qt.rgba(0.95294, 0.43922, 0.21569) : Qt.rgba(0.1294, 0.1451, 0.1608)
-
-                        anchors.horizontalCenter: parent.horizontalCenter
-                    }
-
-                    Row {
-                        spacing: 10
-                        anchors.horizontalCenter: parent.horizontalCenter
-
-                        Text {
-                            text: "IP:"
-                            font.bold: true
-                            color: winApp.darkMode ? Qt.rgba(0.90196, 0.90588, 0.90980) : Qt.rgba(0.95294, 0.43922, 0.21569)
-                        }
-
-                        Text {
-                            id: ipTxt
-                            text: "127.0.0.1"
-                            color: winApp.darkMode ? Qt.rgba(0.90196, 0.90588, 0.90980) : Qt.rgba(0.1294, 0.1451, 0.1608)
-                            width: 150
-                        }
-
-                        Text {
-                            text: "Port:"
-                            font.bold: true
-                            color: winApp.darkMode ? Qt.rgba(0.90196, 0.90588, 0.90980) : Qt.rgba(0.95294, 0.43922, 0.21569)
-                        }
-                        SpinBox {
-                            id: s_portServer
-                            from: 1
-                            to: 65535
-                            value: 1025
-                            width: 100
-                        }
-                    }
-////////////////////////////////////// SERVER
-                    Button {
-                        id: serverconnectButton
-                        text: "Connect"
-                        onClicked: {
-                            if (server.serverSocket()) {
-                                if (server.connectToServer(s_portServer.value)) {
-                                    server.acceptServer()
-                                }
-                            }
-                        }
-                        anchors.horizontalCenter: parent.horizontalCenter
-                    }
-
-                    TextArea {
-                        id: stextArea
-                        text: ""
-                        width: parent.width - 40
-                        color: winApp.darkMode ? Qt.rgba(0.90196, 0.90588, 0.90980) : Qt.rgba(0.1294, 0.1451, 0.1608)
-                        height: 150
-                        placeholderText: "Output will be shown here..."
-                        anchors.horizontalCenter: parent.horizontalCenter
-                    }
-
-                    // Connections {
-                    //     target: server
-                    //     function onMessageReceived(message) {
-                    //         stextArea.text = message + "\n" + stextArea.text
-                    //     }
-                    // }
-                }
-
-                // Vertical line
-                Rectangle {
-                    width: 2
-                    height: parent.height
-                    color: "black"
-                    x: parent.width / 2 - width / 2
-                }
-
-                // Right side
-                Column {
-                    id: sideClient
-                    spacing: 20
-                    anchors {
-                        right: parent.right
-                        top: parent.top
-                        topMargin: 30
-                        bottom: parent.bottom
-                    }
-                    width: parent.width / 2
-
-                    Label {
-                        id: lblClinetSide
-                        text: "Client Side"
-                        font.family: "Ubuntu"
-                        font.pixelSize: 30;
-                        font.bold: true
-                        color: winApp.darkMode ? Qt.rgba(0.95294, 0.43922, 0.21569) : Qt.rgba(0.1294, 0.1451, 0.1608)
-
-                        anchors.horizontalCenter: parent.horizontalCenter
-                    }
-
-                    Row {
-                        spacing: 10
-                        anchors.horizontalCenter: parent.horizontalCenter
-
-                        Text {
-                            text: "IP:"
-                            font.bold: true
-                            color: winApp.darkMode ? Qt.rgba(0.90196, 0.90588, 0.90980) : Qt.rgba(0.95294, 0.43922, 0.21569)
-                        }
-
-                        TextField {
-                            id: c_ipInput
-                            width: 150
-                            height: 25
-                            color: Qt.rgba(0.90196, 0.90588, 0.90980)
-                            font.family: "Ubuntu"
-                            placeholderText: "___.___.___.___"
-                            // inputMethodHints: Qt.ImhDigitsOnly // not working :(
-                        }
-
-                        Text {
-                            text: "Port:"
-                            font.bold: true
-                            color: winApp.darkMode ? Qt.rgba(0.90196, 0.90588, 0.90980) : Qt.rgba(0.95294, 0.43922, 0.21569)
-                        }
-
-                        SpinBox {
-                            id: c_portInput
-                            from: 1
-                            to: 65535
-                            value: 1025
-                            width: 100
-                        }
-                    }
-
-                    Row {
-                        spacing: 10
-                        anchors.horizontalCenter: parent.horizontalCenter
-                        Text {
-                            text: "File name"
-                            font.bold: true
-                            color: winApp.darkMode ? Qt.rgba(0.90196, 0.90588, 0.90980) : Qt.rgba(0.95294, 0.43922, 0.21569)
-                        }
-
-                        TextField {
-                            id: filenameInput
-                            placeholderText: "Filename"
-                        }
-                    }
-////////////////////////////////////// CLIENT
-                    Button {
-                        id: clientconnectButton
-                        text: "Connect"
-                        onClicked: {
-                            client.clientSocket()
-                            client.connectToServer(c_ipInput.text, c_portInput.value)
-                            client.send_msg_filename(filenameInput.text)
-                            client.recv_msg()
-                        }
-                        anchors.horizontalCenter: parent.horizontalCenter
-                    }
-
-                    TextArea {
-                        id: ctextArea
-                        text: ""
-                        width: parent.width - 40
-                        color: winApp.darkMode ? Qt.rgba(0.90196, 0.90588, 0.90980) : Qt.rgba(0.1294, 0.1451, 0.1608)
-                        height: 150
-                        placeholderText: "Output will be shown here..."
-                        anchors.horizontalCenter: parent.horizontalCenter
-                    }
-                    Connections {
-                        target: client
-                        function onMessageReceived(message) {
-                            ctextArea.text = message + "\n" + ctextArea.text
-                        }
+                PropertyAnimation {
+                    id: flyLeftCard2
+                    target: leftCard2
+                    properties: "x"
+                    duration: 1000
+                    to: window.width / 2 - 85  // кінцеве положення карти по горизонталі
+                    onFinished: {
+                        leftCard2.source = "resources/cards/" + window.page_cards + "_11_3.png";
                     }
                 }
             }
 
-            // Page {
-                // title: "Page 2"
-                // Colomn {
-                    // id: clientInput
-                    // anchors.centerIn: parent
-                // }
+            // Друга карта з правого боку
+                Image {
+                    id: rightCard2
+                    source: "resources/cards/" + window.page_cards + "_0_0.png"
+                    x: window.width  // початкове розташування за межами правого краю
+                    y: window.height / 2 - height + 250
+                    width: 70
+                    height: 120
+                    visible: false
 
-
-                // Column {
-                //     anchors.centerIn: parent
-
-                //     Text {
-                //         text: "This is Page 2"
-                //         font.pointSize: 24
-                //     }
-
-                //     Button {
-                //         text: "Go to Page 3"
-                //         onClicked: stackView.push(page3)
-                //     }
-
-                //     Button {
-                //         text: "Go back to Page 1"
-                //         onClicked: stackView.pop()
-                //     }
-                // }
-            // }
+                    PropertyAnimation {
+                        id: flyRightCard2
+                        target: rightCard2
+                        properties: "x"
+                        duration: 1000
+                        to: window.width / 2 + 15  // кінцеве положення карти по горизонталі
+                        onFinished: {
+                            rightCard2.source = "resources/cards/" + window.page_cards + "_6_1.png";
+                        }
+                    }
+                }
+            }
         }
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
