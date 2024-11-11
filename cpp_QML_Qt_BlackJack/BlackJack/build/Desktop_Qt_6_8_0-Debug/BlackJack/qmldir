@@ -1,5 +1,0 @@
-module BlackJack
-typeinfo appBlackJack.qmltypes
-prefer :/qt/qml/BlackJack/
-Main 1.0 Main.qml
-
