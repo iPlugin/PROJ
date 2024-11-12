@@ -1,6 +1,9 @@
 #include "cardmanager.h"
 #include <QDebug>
 #include <charconv>
+#include <QFile>
+#include <QDir>
+#include <QUrl>
 
 
 CardManager::CardManager(QObject *parent) : QObject(parent) {
@@ -122,4 +125,34 @@ int CardManager::sum_your_card() {
 void CardManager::clearGeneratedCards() {
     generated_dealer_cards.clear();
     generated_your_cards.clear();
+}
+
+
+bool CardManager::saveImageToResource(const QString &fileUrl, int typeTables) {
+    QString filePath = QUrl(fileUrl).toLocalFile();
+
+    if (filePath.isEmpty()) {
+        qDebug() << "Помилка: Шлях до файлу порожній.";
+        return false;
+    }
+
+    QString destDirectory = "resources/tables/";
+    QString destFileName = QString("%1_table.png").arg(typeTables + 1);
+    QString destPath = destDirectory + destFileName;
+
+    QDir dir;
+    if (!dir.exists(destDirectory)) {
+        if (!dir.mkpath(destDirectory)) {
+            qDebug() << "Не вдалося створити директорію" << destDirectory;
+            return false;
+        }
+    }
+
+    if (QFile::copy(filePath, destPath)) {
+        qDebug() << "Файл збережено успішно як" << destPath;
+        return true;
+    } else {
+        qDebug() << "Помилка копіювання файлу з" << filePath << "до" << destPath;
+        return false;
+    }
 }

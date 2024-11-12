@@ -190,7 +190,8 @@ set_target_properties(appBlackJack PROPERTIES
 )
 
 target_link_libraries(appBlackJack
-    PRIVATE Qt6::Quick
+    PRIVATE
+        Qt6::Quick
 )
 
 include(GNUInstallDirs)

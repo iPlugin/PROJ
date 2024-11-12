@@ -45,6 +45,22 @@
                     "index": 4,
                     "name": "clearGeneratedCards",
                     "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "filePath",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "typeTables",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "saveImageToResource",
+                    "returnType": "bool"
                 }
             ],
             "object": true,

@@ -1,5 +1,8 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
+import Qt.labs.platform 1.1
+import QtQuick.Window 2.15
+
 
 pragma ComponentBehavior: Bound
 
@@ -745,7 +748,7 @@ ApplicationWindow {
         id: thirdPage
         Page {
             Text {
-                text: "Welcome add new card"
+                text: "Welcome add new card/nWill be soon/nClieck Esc"
                 font.family: "Arial Black"
                 font.pixelSize: 20
                 font.bold: true
@@ -760,16 +763,72 @@ ApplicationWindow {
     Component {
         id: fourthPage
         Page {
+            Image {
+                id: main_bckImg
+                source: "resources/images/promo.jpg"
+                anchors.fill: parent
+                fillMode: Image.PreserveAspectCrop
+            }
+
             Text {
-                text: "Welcome add new table"
+                text: "Download new table (*.png)"
                 font.family: "Arial Black"
                 font.pixelSize: 20
                 font.bold: true
                 color: "#DAA520"
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
-                anchors.verticalCenterOffset: 160
+                anchors.verticalCenterOffset: -120
+            }
+
+            Image {
+                id: back
+                source: "resources/images/back.png"
+                width: 50
+                height: 50
+                visible: true
+                anchors.top: parent.top
+                anchors.left: parent.left
+                anchors.margins: 10
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: {
+                        stackView.pop();
+                    }
+                }
+            }
+
+            FileDialog {
+                id: fileDialog
+                title: "Choose a picture"
+                nameFilters: ["Images (*.png)"]
+                onAccepted: {
+                    mainImage.source = fileDialog.file
+                    cardManager.saveImageToResource(fileDialog.file, type_tables)
+                    type_tables++
+                }
+            }
+
+            Image {
+                id: mainImage
+                width: 160
+                height: 120
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.verticalCenter: parent.verticalCenter
+                anchors.verticalCenterOffset: 175
+                fillMode: Image.PreserveAspectFit
+            }
+
+            Button {
+                text: "Choose a picture"
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.verticalCenter: parent.verticalCenter
+                anchors.verticalCenterOffset: -75
+                onClicked: fileDialog.open()
             }
         }
     }
+
+
+
 }

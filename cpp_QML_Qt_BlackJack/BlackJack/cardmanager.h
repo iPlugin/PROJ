@@ -18,6 +18,7 @@ public:
     Q_INVOKABLE int sum_dealer_card();
     Q_INVOKABLE int sum_your_card();
     Q_INVOKABLE void clearGeneratedCards();
+    Q_INVOKABLE bool saveImageToResource(const QString &filePath, int typeTables);
 
 private:
     std::unordered_set<std::string> generated_dealer_cards;
