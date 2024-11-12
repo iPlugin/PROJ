@@ -408,21 +408,29 @@ ApplicationWindow {
 
                         dealer_cards_1.visible = false
                         dealer_cards_1.source = "resources/cards/" + window.page_cards + "_0_0.png"
+                        dealer_cards_1.x = window.width
                         dealer_cards_2.visible = false
                         dealer_cards_2.source = "resources/cards/" + window.page_cards + "_0_0.png"
+                        dealer_cards_2.x = window.width
                         dealer_cards_3.visible = false
                         dealer_cards_3.source = "resources/cards/" + window.page_cards + "_0_0.png"
+                        dealer_cards_3.x = window.width
 
                         yours_cards_1.visible = false
                         yours_cards_1.source = "resources/cards/" + window.page_cards + "_0_0.png"
+                        yours_cards_1.x = window.width
                         yours_cards_2.visible = false
                         yours_cards_2.source = "resources/cards/" + window.page_cards + "_0_0.png"
+                        yours_cards_2.x = window.width
                         yours_cards_3.visible = false
                         yours_cards_3.source = "resources/cards/" + window.page_cards + "_0_0.png"
+                        yours_cards_3.x = window.width
                         yours_cards_4.visible = false
                         yours_cards_4.source = "resources/cards/" + window.page_cards + "_0_0.png"
+                        yours_cards_4.x = window.width
                         yours_cards_5.visible = false
                         yours_cards_5.source = "resources/cards/" + window.page_cards + "_0_0.png"
+                        yours_cards_5.x = window.width
                         window.cardsOnTable = 2
 
                         cardManager.clearGeneratedCards()
@@ -467,7 +475,7 @@ ApplicationWindow {
                 visible: true
                 anchors.left: parent.left
                 anchors.bottom: parent.bottom
-                anchors.margins: 10  // Відстань від правого та нижнього краю
+                anchors.margins: 10
                 MouseArea {
                     anchors.fill: parent
                     onClicked: {
@@ -556,7 +564,7 @@ ApplicationWindow {
                 Image {
                     id: dealer_cards_1
                     source: "resources/cards/" + window.page_cards + "_0_0.png"
-                    x: -width
+                    x: window.width
                     y: window.height / 2 - height - 100
                     width: 70
                     height: 120
@@ -579,7 +587,7 @@ ApplicationWindow {
                 Image {
                     id: dealer_cards_2
                     source: "resources/cards/" + window.page_cards + "_0_0.png"
-                    x: window.width  // початкове розташування за межами правого краю
+                    x: window.width
                     y: window.height / 2 - height - 100
                     width: 70
                     height: 120
@@ -650,7 +658,7 @@ ApplicationWindow {
                 Image {
                     id: yours_cards_2
                     source: "resources/cards/" + window.page_cards + "_0_0.png"
-                    x: window.width  // початкове розташування за межами правого краю
+                    x: window.width
                     y: window.height / 2 - height + 250
                     width: 70
                     height: 120
@@ -661,7 +669,7 @@ ApplicationWindow {
                         target: yours_cards_2
                         properties: "x"
                         duration: 200
-                        to: window.width / 2 - 15  // кінцеве положення карти по горизонталі
+                        to: window.width / 2 - 15
                         onFinished: {
                             yours_cards_2.source = cardManager.generate_your_card(window.page_cards);
                         }
@@ -681,7 +689,7 @@ ApplicationWindow {
                         target: yours_cards_3
                         properties: "x"
                         duration: 200
-                        to: window.width / 2 + 5  // кінцеве положення карти по горизонталі
+                        to: window.width / 2 + 5
                         onFinished: {
                             yours_cards_3.source = cardManager.generate_your_card(window.page_cards);
                         }
