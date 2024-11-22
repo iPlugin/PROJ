@@ -571,3 +571,16 @@
 884	3800	1731427198500887559	CMakeFiles/appBlackJack.dir/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/appBlackJack_Main_qml.cpp.o	4c49fe8996678d7f
 885	12806	1731427198501887564	CMakeFiles/appBlackJack.dir/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_appBlackJack_raw_qml_0.cpp.o	7c74ea2f795447da
 12806	13191	1731427210422939794	appBlackJack	d377a5f8819ba7ec
+19	25	1731439598296082740	BlackJack/Main.qml	85c1b71c794cdecc
+19	25	1731439598296082740	/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/BlackJack/Main.qml	85c1b71c794cdecc
+19	160	1731439598431084202	.qt/qml_imports/appBlackJack_build.cmake	2fab7177440429dc
+19	160	1731439598431084202	/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/.qt/qml_imports/appBlackJack_build.cmake	2fab7177440429dc
+161	286	1731439598551085501	.rcc/qmlcache/appBlackJack_Main_qml.cpp	872cbcbebcf7bd2b
+161	286	1731439598551085501	.rcc/qmlcache/appBlackJack_Main_qml.cpp.aotstats	872cbcbebcf7bd2b
+161	286	1731439598551085501	/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/appBlackJack_Main_qml.cpp	872cbcbebcf7bd2b
+161	286	1731439598551085501	/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/appBlackJack_Main_qml.cpp.aotstats	872cbcbebcf7bd2b
+161	1067	1731439599283093419	.qt/rcc/qrc_appBlackJack_raw_qml_0.cpp	f6afb3f2a9cbcbd4
+161	1067	1731439599283093419	/home/iplugin/Codes/github/PROJ/cpp_QML_Qt_BlackJack/BlackJack/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_appBlackJack_raw_qml_0.cpp	f6afb3f2a9cbcbd4
+1067	4356	1731439599339094024	CMakeFiles/appBlackJack.dir/build/Desktop_Qt_6_8_0-Debug/.rcc/qmlcache/appBlackJack_Main_qml.cpp.o	4c49fe8996678d7f
+1068	14606	1731439599340094035	CMakeFiles/appBlackJack.dir/build/Desktop_Qt_6_8_0-Debug/.qt/rcc/qrc_appBlackJack_raw_qml_0.cpp.o	7c74ea2f795447da
+14606	15038	1731439612878238955	appBlackJack	d377a5f8819ba7ec

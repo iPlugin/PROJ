@@ -742,13 +742,11 @@ ApplicationWindow {
         }
     }
 
-
-
     Component {
         id: thirdPage
         Page {
             Text {
-                text: "Welcome add new card/nWill be soon/nClieck Esc"
+                text: "Welcome add new card. Will be soon. Click Esc"
                 font.family: "Arial Black"
                 font.pixelSize: 20
                 font.bold: true
