@@ -11,9 +11,9 @@ while True:
     elif res == "2":
         action = "decrypt"
         break
-    
+
     print("Please enter the number 1 or 2")
-    
+
 while True:
     key1 = len(LETTER) - 1
     print(f"Please enter the key (0 to {key1}) to use")
